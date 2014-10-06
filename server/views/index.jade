@@ -1,0 +1,31 @@
+doctype
+html(lang='en', ng-app='myApp')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Test
+   
+    link(href='bower_components/bootswatch/cosmo/bootstrap.min.css', rel='stylesheet')
+    link(href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css', rel='stylesheet')
+    link(href='css/app.css', rel='stylesheet')
+    script.
+      window.myAppConfig = !{JSON.stringify(config).replace(/<\//g, "<\\/")}
+
+  body
+    div(ng-include="'partials/header.tpl.html'")
+    br
+    div(class='container', ng-view)
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='bower_components/angular/angular.min.js')
+    script(src='bower_components/angular-route/angular-route.min.js')
+    script(src='bower_components/angular-bootstrap/ui-bootstrap.min.js')
+    script(src='bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js')
+    script(src='js/app.js')
+    script(src='js/services.js')
+    script(src='js/controllers.js')
+    script(src='js/filters.js')
+    script(src='js/directives.js')
