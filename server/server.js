@@ -10,17 +10,16 @@ app.set('view engine', 'jade');
 app.use(express.logger())
 .use(express.static(config.server.staticFolder))
 .use(express.cookieParser())
-.use(express.bodyParser())
-.use(express.session({ secret: 'secret' }));
+.use(express.bodyParser());
 
 var server = http.createServer(app);
-server.listen(8080);
-console.log('Express server started at port 8080.');
+server.listen(8000);
+console.log('Express server started.');
 
 var data = fs.readFileSync('./config.json');
 var myConfig = JSON.parse(data);
 
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
   res.render('index', {
     config : myConfig
   });

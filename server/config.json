@@ -1,5 +1,6 @@
 {
-  "views": [{
+  "views": [
+  {
     "path" : "/view1", 
     "type" : "twelveSixSix", 
     "widgets" : {
@@ -22,12 +23,6 @@
       "east" : ["widget1", "widget2"],
       "west" : ["panel"]
     }
-  },
-  {
-    "path" : "/view4", 
-    "type" : "twelveZeroZero", 
-    "widgets" : {
-      "north" : ["dashboard", "widget1"]
-    }
-  }]
+  }
+  ]
 }
