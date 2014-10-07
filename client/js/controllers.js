@@ -42,7 +42,9 @@ angular.module('myApp.controllers', ['ui.bootstrap.collapse'])
     }
   }])
 
-
+.controller('PanelCtrl', ['$scope', function($scope){
+  $scope.bla="From controller";
+}])
 
 
 
