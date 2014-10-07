@@ -1,0 +1,33 @@
+{
+  "views": [{
+    "path" : "/view1", 
+    "type" : "twelveSixSix", 
+    "widgets" : {
+      "north" : ["dashboard"],
+      "east" : ["widget1", "widget2"],
+      "west" : ["panel"]
+    }
+  },
+  {
+    "path" : "/view2", 
+    "type" : "twelveZeroZero", 
+    "widgets" : {
+      "north" : ["dashboard", "panel"]          
+    }
+  },
+  {
+    "path" : "/view3", 
+    "type" : "zeroSixSix", 
+    "widgets" : {
+      "east" : ["widget1", "widget2"],
+      "west" : ["panel"]
+    }
+  },
+  {
+    "path" : "/view4", 
+    "type" : "twelveZeroZero", 
+    "widgets" : {
+      "north" : ["dashboard", "widget1"]
+    }
+  }]
+}
