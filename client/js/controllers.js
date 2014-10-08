@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', ['ui.bootstrap.collapse'])
+angular.module('myApp.controllers', ['ui.bootstrap.collapse', 'ngTable'])
 
 .controller('HeaderCtrl', ['$scope', '$location', 'AppConfig', function ($scope, $location, config) {
   $scope.isActive = function(str){ return $location.path().search(str)>-1; };
@@ -42,8 +42,19 @@ angular.module('myApp.controllers', ['ui.bootstrap.collapse'])
     }
   }])
 
-.controller('PanelCtrl', ['$scope', function($scope){
-  $scope.bla="From controller";
+.controller('PanelCtrl', ['$scope', '$http','ngTableParams', function($scope, $http, ngTableParams){
+  $scope.tableParams = new ngTableParams({
+        page: 1,            // show first page
+        count: 10           // count per page
+    }, {
+        total: 600, // length of data
+        getData: function($defer, params) {
+            $http.get('/api/companies').success(function(data){
+              console.log(data);
+              $defer.resolve(data.slice((params.page() - 1) * params.count(), params.page() * params.count()));
+            });            
+        }
+    });
 }])
 
 

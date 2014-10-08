@@ -2,7 +2,9 @@ var express = require('express'),
 http = require('http'),
 config = require('./config'),
 fs = require('fs'),
+companies = require('./companies'),
 app = express();
+
 
 
 app.set('views', __dirname + '/views')
@@ -16,12 +18,14 @@ var server = http.createServer(app);
 server.listen(8000);
 console.log('Express server started.');
 
-var data = fs.readFileSync('./config.json');
-var myConfig = JSON.parse(data);
+var myConfig = JSON.parse(fs.readFileSync('./config.json'));
 
 app.get('/', function(req, res) {
   res.render('index', {
     config : myConfig
   });
 });
+
+var stockholmCompanies = JSON.parse(fs.readFileSync('./companies/stockholm.json'));
+companies(app, stockholmCompanies);
 
