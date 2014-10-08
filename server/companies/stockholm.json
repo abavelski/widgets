@@ -1,0 +1,5402 @@
+[
+  {
+    "name": "BillerudKorsnäs AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "BILL",
+    "isin": "SE0000862997"
+  },
+  {
+    "name": "Boliden AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "BOL",
+    "isin": "SE0000869646"
+  },
+  {
+    "name": "Holmen AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "HOLM A",
+    "isin": "SE0000171506"
+  },
+  {
+    "name": "Holmen AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "HOLM B",
+    "isin": "SE0000109290"
+  },
+  {
+    "name": "Kemira Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "KRA1V",
+    "isin": "FI0009004824"
+  },
+  {
+    "name": "Lundin Mining Corporation SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "LUMI SDB",
+    "isin": "SE0001134529"
+  },
+  {
+    "name": "Outokumpu Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "OUT1V",
+    "isin": "FI0009002422"
+  },
+  {
+    "name": "SEMAFO Inc.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "SMF",
+    "isin": "CA8169221089"
+  },
+  {
+    "name": "SSAB AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "SSAB A",
+    "isin": "SE0000171100"
+  },
+  {
+    "name": "SSAB AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "SSAB B",
+    "isin": "SE0000120669"
+  },
+  {
+    "name": "Stora Enso Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "STEAV",
+    "isin": "FI0009005953"
+  },
+  {
+    "name": "Stora Enso Oyj R",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "STERV",
+    "isin": "FI0009005961"
+  },
+  {
+    "name": "Stora Enso Oyj ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "STE A",
+    "isin": "FI0009007603"
+  },
+  {
+    "name": "Stora Enso Oyj ser. R",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "STE R",
+    "isin": "FI0009007611"
+  },
+  {
+    "name": "UPM-Kymmene Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Basic Materials",
+    "code": "UPM1V",
+    "isin": "FI0009005987"
+  },
+  {
+    "name": "Amer Sports Corporation",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "AMEAS",
+    "isin": "FI0009000285"
+  },
+  {
+    "name": "Autoliv Inc. SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "ALIV SDB",
+    "isin": "SE0000382335"
+  },
+  {
+    "name": "Carlsberg A/S A",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "CARL A",
+    "isin": "DK0010181676"
+  },
+  {
+    "name": "Carlsberg A/S B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "CARL B",
+    "isin": "DK0010181759"
+  },
+  {
+    "name": "Electrolux, AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "ELUX A",
+    "isin": "SE0000103806"
+  },
+  {
+    "name": "Electrolux, AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "ELUX B",
+    "isin": "SE0000103814"
+  },
+  {
+    "name": "Fiskars Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "FIS1V",
+    "isin": "FI0009000400"
+  },
+  {
+    "name": "Husqvarna AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "HUSQ A",
+    "isin": "SE0001662222"
+  },
+  {
+    "name": "Husqvarna AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "HUSQ B",
+    "isin": "SE0001662230"
+  },
+  {
+    "name": "Nokian Renkaat Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "NRE1V",
+    "isin": "FI0009005318"
+  },
+  {
+    "name": "Oriflame Cosmetics S.A, SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "ORI SDB",
+    "isin": "SE0001174889"
+  },
+  {
+    "name": "Pandora A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "PNDORA",
+    "isin": "DK0060252690"
+  },
+  {
+    "name": "Swedish Match AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "SWMA",
+    "isin": "SE0000310336"
+  },
+  {
+    "name": "Svenska Cellulosa AB SCA ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "SCA A",
+    "isin": "SE0000171886"
+  },
+  {
+    "name": "Svenska Cellulosa AB SCA ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Goods",
+    "code": "SCA B",
+    "isin": "SE0000112724"
+  },
+  {
+    "name": "Axfood AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "AXFO",
+    "isin": "SE0000635401"
+  },
+  {
+    "name": "Hennes & Mauritz AB, H & M ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "HM B",
+    "isin": "SE0000106270"
+  },
+  {
+    "name": "ICA Gruppen AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "ICA",
+    "isin": "SE0000652216"
+  },
+  {
+    "name": "Kesko Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "KESAV",
+    "isin": "FI0009007900"
+  },
+  {
+    "name": "Kesko Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "KESBV",
+    "isin": "FI0009000202"
+  },
+  {
+    "name": "Modern Times Group MTG AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "MTG A",
+    "isin": "SE0000412363"
+  },
+  {
+    "name": "Modern Times Group MTG AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "MTG B",
+    "isin": "SE0000412371"
+  },
+  {
+    "name": "Sanoma Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "SAA1V",
+    "isin": "FI0009007694"
+  },
+  {
+    "name": "Stockmann Oyj Abp A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "STCAS",
+    "isin": "FI0009000236"
+  },
+  {
+    "name": "Stockmann Oyj Abp B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Consumer Services",
+    "code": "STCBV",
+    "isin": "FI0009000251"
+  },
+  {
+    "name": "Atrium Ljungberg AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "LJGR B",
+    "isin": "SE0000191827"
+  },
+  {
+    "name": "Castellum AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "CAST",
+    "isin": "SE0000379190"
+  },
+  {
+    "name": "Danske Bank A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "DANSKE",
+    "isin": "DK0010274414"
+  },
+  {
+    "name": "Fabege AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "FABG",
+    "isin": "SE0000950636"
+  },
+  {
+    "name": "Hufvudstaden AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "HUFV A",
+    "isin": "SE0000170375"
+  },
+  {
+    "name": "Hufvudstaden AB ser. C",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "HUFV C",
+    "isin": "SE0000170383"
+  },
+  {
+    "name": "Industrivärden, AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "INDU A",
+    "isin": "SE0000190126"
+  },
+  {
+    "name": "Industrivärden, AB ser. C",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "INDU C",
+    "isin": "SE0000107203"
+  },
+  {
+    "name": "Investor AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "INVE A",
+    "isin": "SE0000107401"
+  },
+  {
+    "name": "Investor AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "INVE B",
+    "isin": "SE0000107419"
+  },
+  {
+    "name": "Jyske Bank A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "JYSK",
+    "isin": "DK0010307958"
+  },
+  {
+    "name": "Kinnevik, Investment AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "KINV A",
+    "isin": "SE0000164600"
+  },
+  {
+    "name": "Kinnevik, Investment AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "KINV B",
+    "isin": "SE0000164626"
+  },
+  {
+    "name": "Latour, Investmentab. ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "LATO B",
+    "isin": "SE0000106320"
+  },
+  {
+    "name": "Lundbergföretagen AB, L E ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "LUND B",
+    "isin": "SE0000108847"
+  },
+  {
+    "name": "Melker Schörling AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "MELK",
+    "isin": "SE0001785270"
+  },
+  {
+    "name": "Nordea Bank AB",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "NDA DKK",
+    "isin": "SE0000427361"
+  },
+  {
+    "name": "Nordea Bank AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "NDA SEK",
+    "isin": "SE0000427361"
+  },
+  {
+    "name": "Nordea Bank AB (publ) FDR",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "NDA1V",
+    "isin": "FI0009902530"
+  },
+  {
+    "name": "Pohjola Pankki Oyj  A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "POH1S",
+    "isin": "FI0009003222"
+  },
+  {
+    "name": "Ratos AB pref.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "RATO PREF",
+    "isin": "SE0005222841"
+  },
+  {
+    "name": "Ratos AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "RATO A",
+    "isin": "SE0000191090"
+  },
+  {
+    "name": "Ratos AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "RATO B",
+    "isin": "SE0000111940"
+  },
+  {
+    "name": "Sampo Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SAMAS",
+    "isin": "FI0009003305"
+  },
+  {
+    "name": "Skandinaviska Enskilda Banken ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SEB A",
+    "isin": "SE0000148884"
+  },
+  {
+    "name": "Skandinaviska Enskilda Banken ser. C",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SEB C",
+    "isin": "SE0000120784"
+  },
+  {
+    "name": "Swedbank AB ser A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SWED A",
+    "isin": "SE0000242455"
+  },
+  {
+    "name": "Svenska Handelsbanken ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SHB A",
+    "isin": "SE0000193120"
+  },
+  {
+    "name": "Svenska Handelsbanken ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SHB B",
+    "isin": "SE0000152084"
+  },
+  {
+    "name": "Sydbank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "SYDB",
+    "isin": "DK0010311471"
+  },
+  {
+    "name": "Topdanmark",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "TOP",
+    "isin": "DK0060477503"
+  },
+  {
+    "name": "Tryg A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "TRYG",
+    "isin": "DK0060013274"
+  },
+  {
+    "name": "Wallenstam AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Financials",
+    "code": "WALL B",
+    "isin": "SE0000115008"
+  },
+  {
+    "name": "AstraZeneca PLC",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "AZN",
+    "isin": "GB0009895292"
+  },
+  {
+    "name": "Chr. Hansen Holding A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "CHR",
+    "isin": "DK0060227585"
+  },
+  {
+    "name": "Coloplast B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "COLO B",
+    "isin": "DK0060448595"
+  },
+  {
+    "name": "Elekta AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "EKTA B",
+    "isin": "SE0000163628"
+  },
+  {
+    "name": "Getinge AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "GETI B",
+    "isin": "SE0000202624"
+  },
+  {
+    "name": "GN Store Nord",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "GN",
+    "isin": "DK0010272632"
+  },
+  {
+    "name": "Lundbeck A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "LUN",
+    "isin": "DK0010287234"
+  },
+  {
+    "name": "Meda AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "MEDA A",
+    "isin": "SE0000221723"
+  },
+  {
+    "name": "Novo Nordisk B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "NOVO B",
+    "isin": "DK0060102614"
+  },
+  {
+    "name": "Novozymes B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "NZYM B",
+    "isin": "DK0060336014"
+  },
+  {
+    "name": "Orion Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "ORNAV",
+    "isin": "FI0009014369"
+  },
+  {
+    "name": "Orion Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "ORNBV",
+    "isin": "FI0009014377"
+  },
+  {
+    "name": "William Demant Holding",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Health Care",
+    "code": "WDH",
+    "isin": "DK0010268440"
+  },
+  {
+    "name": "A.P. Møller - Mærsk A",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "MAERSK A",
+    "isin": "DK0010244425"
+  },
+  {
+    "name": "A.P. Møller - Mærsk B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "MAERSK B",
+    "isin": "DK0010244508"
+  },
+  {
+    "name": "ABB Ltd",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ABB",
+    "isin": "CH0012221716"
+  },
+  {
+    "name": "Alfa Laval AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ALFA",
+    "isin": "SE0000695876"
+  },
+  {
+    "name": "ASSA ABLOY AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ASSA B",
+    "isin": "SE0000255648"
+  },
+  {
+    "name": "Atlas Copco AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ATCO A",
+    "isin": "SE0000101032"
+  },
+  {
+    "name": "Atlas Copco AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ATCO B",
+    "isin": "SE0000122467"
+  },
+  {
+    "name": "Cargotec Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "CGCBV",
+    "isin": "FI0009013429"
+  },
+  {
+    "name": "DSV",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "DSV",
+    "isin": "DK0060079531"
+  },
+  {
+    "name": "FLSmidth & Co.",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "FLS",
+    "isin": "DK0010234467"
+  },
+  {
+    "name": "G4S plc",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "G4S",
+    "isin": "GB00B01FLG62"
+  },
+  {
+    "name": "Hexagon AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "HEXA B",
+    "isin": "SE0000103699"
+  },
+  {
+    "name": "Huhtamäki Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "HUH1V",
+    "isin": "FI0009000459"
+  },
+  {
+    "name": "KONE Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "KNEBV",
+    "isin": "FI0009013403"
+  },
+  {
+    "name": "Konecranes Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "KCR1V",
+    "isin": "FI0009005870"
+  },
+  {
+    "name": "Københavns Lufthavne",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "KBHL",
+    "isin": "DK0010201102"
+  },
+  {
+    "name": "Metso Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "MEO1V",
+    "isin": "FI0009007835"
+  },
+  {
+    "name": "NCC AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "NCC A",
+    "isin": "SE0000118952"
+  },
+  {
+    "name": "NCC AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "NCC B",
+    "isin": "SE0000117970"
+  },
+  {
+    "name": "NIBE Industrier AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "NIBE B",
+    "isin": "SE0000390296"
+  },
+  {
+    "name": "Outotec Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "OTE1V",
+    "isin": "FI0009014575"
+  },
+  {
+    "name": "Peab AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "PEAB B",
+    "isin": "SE0000106205"
+  },
+  {
+    "name": "Rockwool International A",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ROCK A",
+    "isin": "DK0010219070"
+  },
+  {
+    "name": "Rockwool International B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "ROCK B",
+    "isin": "DK0010219153"
+  },
+  {
+    "name": "SAAB AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SAAB B",
+    "isin": "SE0000112385"
+  },
+  {
+    "name": "Sandvik AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SAND",
+    "isin": "SE0000667891"
+  },
+  {
+    "name": "SCANIA AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SCV A",
+    "isin": "SE0000308272"
+  },
+  {
+    "name": "SCANIA AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SCV B",
+    "isin": "SE0000308280"
+  },
+  {
+    "name": "Securitas AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SECU B",
+    "isin": "SE0000163594"
+  },
+  {
+    "name": "Skanska AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SKA B",
+    "isin": "SE0000113250"
+  },
+  {
+    "name": "SKF, AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SKF A",
+    "isin": "SE0000108201"
+  },
+  {
+    "name": "SKF, AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "SKF B",
+    "isin": "SE0000108227"
+  },
+  {
+    "name": "Trelleborg AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "TREL B",
+    "isin": "SE0000114837"
+  },
+  {
+    "name": "Volvo, AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "VOLV A",
+    "isin": "SE0000115420"
+  },
+  {
+    "name": "Volvo, AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "VOLV B",
+    "isin": "SE0000115446"
+  },
+  {
+    "name": "Wärtsilä Oyj Abp",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "WRT1V",
+    "isin": "FI0009003727"
+  },
+  {
+    "name": "YIT Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Industrials",
+    "code": "YTY1V",
+    "isin": "FI0009800643"
+  },
+  {
+    "name": "Alliance Oil Company Ltd. SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Oil & Gas",
+    "code": "AOIL SDB",
+    "isin": "SE0000739286"
+  },
+  {
+    "name": "Alliance Oil Company Ltd. SDB pref",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Oil & Gas",
+    "code": "AOIL SDB PREF",
+    "isin": "SE0004949691"
+  },
+  {
+    "name": "Lundin Petroleum AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Oil & Gas",
+    "code": "LUPE",
+    "isin": "SE0000825820"
+  },
+  {
+    "name": "Neste Oil Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Oil & Gas",
+    "code": "NES1V",
+    "isin": "FI0009013296"
+  },
+  {
+    "name": "Vestas Wind Systems",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Oil & Gas",
+    "code": "VWS",
+    "isin": "DK0010268606"
+  },
+  {
+    "name": "Axis AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "AXIS",
+    "isin": "SE0000672354"
+  },
+  {
+    "name": "Ericsson, Telefonab. L M ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "ERIC A",
+    "isin": "SE0000108649"
+  },
+  {
+    "name": "Ericsson, Telefonab. L M ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "ERIC B",
+    "isin": "SE0000108656"
+  },
+  {
+    "name": "Nokia Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "NOK1V",
+    "isin": "FI0009000681"
+  },
+  {
+    "name": "Nokia Oyj New Shares 2013",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "NOK1VM0113",
+    "isin": "FI4000052659"
+  },
+  {
+    "name": "Tieto Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "TIE1V",
+    "isin": "FI0009000277"
+  },
+  {
+    "name": "Tieto Oyj",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Technology",
+    "code": "TIEN",
+    "isin": "FI0009000277"
+  },
+  {
+    "name": "Elisa Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "ELI1V",
+    "isin": "FI0009007884"
+  },
+  {
+    "name": "Millicom International Cellular S.A. SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "MIC SDB",
+    "isin": "SE0001174970"
+  },
+  {
+    "name": "TDC A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "TDC",
+    "isin": "DK0060228559"
+  },
+  {
+    "name": "Tele2 AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "TEL2 A",
+    "isin": "SE0005190220"
+  },
+  {
+    "name": "Tele2 AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "TEL2 B",
+    "isin": "SE0005190238"
+  },
+  {
+    "name": "TeliaSonera AB",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "TLS1V",
+    "isin": "SE0000667925"
+  },
+  {
+    "name": "TeliaSonera AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "LARGE",
+    "industry": "Telecommunications",
+    "code": "TLSN",
+    "isin": "SE0000667925"
+  },
+  {
+    "name": "Fortum Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "LARGE",
+    "industry": "Utilities",
+    "code": "FUM1V",
+    "isin": "FI0009007132"
+  },
+  {
+    "name": "Afarak Group Plc",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "AFAGR",
+    "isin": "FI0009800098"
+  },
+  {
+    "name": "Ahlstrom Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "AHL1V",
+    "isin": "FI0009010391"
+  },
+  {
+    "name": "Auriga Industries B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "AURI B",
+    "isin": "DK0010233816"
+  },
+  {
+    "name": "HEXPOL AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "HPOL B",
+    "isin": "SE0002452623"
+  },
+  {
+    "name": "Metsä Board Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "METSA",
+    "isin": "FI0009000640"
+  },
+  {
+    "name": "Metsä Board Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "METSB",
+    "isin": "FI0009000665"
+  },
+  {
+    "name": "Munksjö Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "MUNK1",
+    "isin": "FI4000048418"
+  },
+  {
+    "name": "Rautaruukki Oyj K",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "RTRKS",
+    "isin": "FI0009003552"
+  },
+  {
+    "name": "Talvivaara Mining Company Plc",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Basic Materials",
+    "code": "TLV1V",
+    "isin": "FI0009014716"
+  },
+  {
+    "name": "AarhusKarlshamn AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "AAK",
+    "isin": "SE0001493776"
+  },
+  {
+    "name": "Atria Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "ATRAV",
+    "isin": "FI0009006548"
+  },
+  {
+    "name": "Bang & Olufsen",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "BO",
+    "isin": "DK0010218429"
+  },
+  {
+    "name": "Black Earth Farming Ltd. SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "BEF SDB",
+    "isin": "SE0001882291"
+  },
+  {
+    "name": "Cloetta AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "CLA B",
+    "isin": "SE0002626861"
+  },
+  {
+    "name": "Duni AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "DUNI",
+    "isin": "SE0000616716"
+  },
+  {
+    "name": "Fenix Outdoor AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "FIX B",
+    "isin": "SE0000104788"
+  },
+  {
+    "name": "Haldex AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "HLDX",
+    "isin": "SE0000105199"
+  },
+  {
+    "name": "HKScan Oyj  A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "HKSAV",
+    "isin": "FI0009006308"
+  },
+  {
+    "name": "IC Companys",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "IC",
+    "isin": "DK0010221803"
+  },
+  {
+    "name": "Mekonomen AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "MEKO",
+    "isin": "SE0002110064"
+  },
+  {
+    "name": "New Wave Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "NEWA B",
+    "isin": "SE0000426546"
+  },
+  {
+    "name": "Nobia AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "NOBI",
+    "isin": "SE0000949331"
+  },
+  {
+    "name": "Olvi Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "OLVAS",
+    "isin": "FI0009900401"
+  },
+  {
+    "name": "Raisio Oyj Vaihto-osake",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "RAIVV",
+    "isin": "FI0009002943"
+  },
+  {
+    "name": "Rapala VMC Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "RAP1V",
+    "isin": "FI0009007355"
+  },
+  {
+    "name": "Royal UNIBREW",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "RBREW",
+    "isin": "DK0010242999"
+  },
+  {
+    "name": "United International Enterprises Ltd",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "UIE",
+    "isin": "BSP951331318"
+  },
+  {
+    "name": "United Plantation Berhad",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "UPB",
+    "isin": "DK0010023258"
+  },
+  {
+    "name": "Østasiatiske Kompagni",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Goods",
+    "code": "EAC",
+    "isin": "DK0010006329"
+  },
+  {
+    "name": "Alma Media Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "ALN1V",
+    "isin": "FI0009013114"
+  },
+  {
+    "name": "Betsson AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "BETS B",
+    "isin": "SE0005217379"
+  },
+  {
+    "name": "Bilia AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "BILI A",
+    "isin": "SE0000102295"
+  },
+  {
+    "name": "Byggmax Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "BMAX",
+    "isin": "SE0003303627"
+  },
+  {
+    "name": "CDON Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "CDON",
+    "isin": "SE0003652163"
+  },
+  {
+    "name": "Clas Ohlson AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "CLAS B",
+    "isin": "SE0000584948"
+  },
+  {
+    "name": "Eniro AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "ENRO",
+    "isin": "SE0000718017"
+  },
+  {
+    "name": "Eniro AB pref",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "ENRO PREF",
+    "isin": "SE0004633956"
+  },
+  {
+    "name": "Finnair Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "FIA1S",
+    "isin": "FI0009003230"
+  },
+  {
+    "name": "Icelandair Group hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "ICEAIR",
+    "isin": "IS0000013464"
+  },
+  {
+    "name": "Ilkka-Yhtymä Oyj 2",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "ILK2S",
+    "isin": "FI0009800205"
+  },
+  {
+    "name": "KappAhl AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "KAHL",
+    "isin": "SE0001630880"
+  },
+  {
+    "name": "Keskisuomalainen Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "KSLAV",
+    "isin": "FI0009007546"
+  },
+  {
+    "name": "Matas A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "MATAS",
+    "isin": "DK0060497295"
+  },
+  {
+    "name": "Net Entertainment NE AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "NET B",
+    "isin": "SE0005189347"
+  },
+  {
+    "name": "Rezidor Hotel Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "REZT",
+    "isin": "SE0001857533"
+  },
+  {
+    "name": "SAS AB",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "SAS DKK",
+    "isin": "SE0003366871"
+  },
+  {
+    "name": "SAS AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "SAS",
+    "isin": "SE0003366871"
+  },
+  {
+    "name": "SkiStar AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "SKIS B",
+    "isin": "SE0000241614"
+  },
+  {
+    "name": "Swedol AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "SWOL B",
+    "isin": "SE0001733841"
+  },
+  {
+    "name": "Tivoli A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "TIV",
+    "isin": "DK0010040500"
+  },
+  {
+    "name": "Unibet Group Plc",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "UNIB SDB",
+    "isin": "SE0001835588"
+  },
+  {
+    "name": "Viking Line Abp",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Consumer Services",
+    "code": "VIK1V",
+    "isin": "FI0009005250"
+  },
+  {
+    "name": "Aktia Bank Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "AKTAV",
+    "isin": "FI4000058870"
+  },
+  {
+    "name": "Aktia Bank Oyj R",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "AKTRV",
+    "isin": "FI4000058888"
+  },
+  {
+    "name": "Alm. Brand",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "ALMB",
+    "isin": "DK0015250344"
+  },
+  {
+    "name": "Avanza Bank Holding AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "AZA",
+    "isin": "SE0000170110"
+  },
+  {
+    "name": "Bure Equity AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "BURE",
+    "isin": "SE0000195810"
+  },
+  {
+    "name": "Citycon Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "CTY1S",
+    "isin": "FI0009002471"
+  },
+  {
+    "name": "Corem Property Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "CORE",
+    "isin": "SE0002257402"
+  },
+  {
+    "name": "Corem Property Group AB pref",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "CORE PREF",
+    "isin": "SE0003208792"
+  },
+  {
+    "name": "Diös Fastigheter AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "DIOS",
+    "isin": "SE0001634262"
+  },
+  {
+    "name": "East Capital Explorer AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "ECEX",
+    "isin": "SE0002158568"
+  },
+  {
+    "name": "Fast Partner AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "FPAR",
+    "isin": "SE0000224446"
+  },
+  {
+    "name": "Fast Partner AB pref.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "FPAR PREF",
+    "isin": "SE0005217320"
+  },
+  {
+    "name": "Fastighets AB Balder pref.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "BALD PREF",
+    "isin": "SE0003949973"
+  },
+  {
+    "name": "Fastighets AB Balder ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "BALD B",
+    "isin": "SE0000455057"
+  },
+  {
+    "name": "Formuepleje Epikur A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "FPEPI",
+    "isin": "DK0016079288"
+  },
+  {
+    "name": "Formuepleje Pareto A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "FPPAR",
+    "isin": "DK0016023492"
+  },
+  {
+    "name": "Formuepleje Penta A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "FPPEN",
+    "isin": "DK0016079361"
+  },
+  {
+    "name": "Formuepleje Safe",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "FPSAFE",
+    "isin": "DK0016110547"
+  },
+  {
+    "name": "Heba Fastighets AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "HEBA B",
+    "isin": "SE0000236515"
+  },
+  {
+    "name": "Intrum Justitia AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "IJ",
+    "isin": "SE0000936478"
+  },
+  {
+    "name": "Jeudan",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "JDAN",
+    "isin": "DK0010171362"
+  },
+  {
+    "name": "JM AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "JM",
+    "isin": "SE0000806994"
+  },
+  {
+    "name": "Klövern AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "KLOV",
+    "isin": "SE0000331225"
+  },
+  {
+    "name": "Klövern AB pref.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "KLOV PREF",
+    "isin": "SE0004390037"
+  },
+  {
+    "name": "Kungsleden AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "KLED",
+    "isin": "SE0000549412"
+  },
+  {
+    "name": "Nordnet AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "NN B",
+    "isin": "SE0000371296"
+  },
+  {
+    "name": "Ringkjøbing Landbobank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "RILBA",
+    "isin": "DK0060032068"
+  },
+  {
+    "name": "Sagax AB pref",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "SAGA PREF",
+    "isin": "SE0001629288"
+  },
+  {
+    "name": "Sagax AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "SAGA A",
+    "isin": "SE0004635878"
+  },
+  {
+    "name": "Sagax AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "SAGA B",
+    "isin": "SE0005127818"
+  },
+  {
+    "name": "Spar Nord Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "SPNO",
+    "isin": "DK0060036564"
+  },
+  {
+    "name": "Sponda Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "SDA1V",
+    "isin": "FI0009006829"
+  },
+  {
+    "name": "Technopolis Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "TPS1V",
+    "isin": "FI0009006886"
+  },
+  {
+    "name": "Tribona AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "TRI",
+    "isin": "SE0005126885"
+  },
+  {
+    "name": "Wihlborgs Fastigheter AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "WIHL",
+    "isin": "SE0001413600"
+  },
+  {
+    "name": "Vostok Nafta Investment Ltd, SDB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "VNIL SDB",
+    "isin": "SE0005191475"
+  },
+  {
+    "name": "Ålandsbanken Abp A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "ALBAV",
+    "isin": "FI0009000103"
+  },
+  {
+    "name": "Ålandsbanken Abp B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "ALBBV",
+    "isin": "FI0009001127"
+  },
+  {
+    "name": "Öresund, Investment AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Financials",
+    "code": "ORES",
+    "isin": "SE0000115610"
+  },
+  {
+    "name": "Active Biotech AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "ACTI",
+    "isin": "SE0001137985"
+  },
+  {
+    "name": "Aerocrine AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "AERO B",
+    "isin": "SE0000434292"
+  },
+  {
+    "name": "ALK-Abelló B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "ALK B",
+    "isin": "DK0060027142"
+  },
+  {
+    "name": "Ambu A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "AMBU B",
+    "isin": "DK0010303619"
+  },
+  {
+    "name": "Bavarian Nordic",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "BAVA",
+    "isin": "DK0015998017"
+  },
+  {
+    "name": "BioGaia AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "BIOG B",
+    "isin": "SE0000470395"
+  },
+  {
+    "name": "Biotie Therapies Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "BTH1V",
+    "isin": "FI0009011571"
+  },
+  {
+    "name": "Genmab",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "GEN",
+    "isin": "DK0010272202"
+  },
+  {
+    "name": "Medivir AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "MVIR B",
+    "isin": "SE0000273294"
+  },
+  {
+    "name": "Oriola-KD Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "OKDAV",
+    "isin": "FI0009014344"
+  },
+  {
+    "name": "Oriola-KD Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "OKDBV",
+    "isin": "FI0009014351"
+  },
+  {
+    "name": "SECTRA AB ser B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "SECT B",
+    "isin": "SE0005223773"
+  },
+  {
+    "name": "Swedish Orphan Biovitrum AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "SOBI",
+    "isin": "SE0000872095"
+  },
+  {
+    "name": "Zealand Pharma A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "ZEAL",
+    "isin": "DK0060257814"
+  },
+  {
+    "name": "Össur hf.",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "OSSR",
+    "isin": "IS0000000040"
+  },
+  {
+    "name": "Össur hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "MID",
+    "industry": "Health Care",
+    "code": "OSSRu",
+    "isin": "IS0000000040"
+  },
+  {
+    "name": "Addtech AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "ADDT B",
+    "isin": "SE0000808370"
+  },
+  {
+    "name": "Aspo Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "ASU1V",
+    "isin": "FI0009008072"
+  },
+  {
+    "name": "B&B TOOLS AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "BBTO B",
+    "isin": "SE0000101362"
+  },
+  {
+    "name": "Beijer AB, G & L ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "BEIJ B",
+    "isin": "SE0000112906"
+  },
+  {
+    "name": "Beijer Alma AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "BEIA B",
+    "isin": "SE0000190134"
+  },
+  {
+    "name": "Caverion Corp.",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "CAV1V",
+    "isin": "FI4000062781"
+  },
+  {
+    "name": "Concentric AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "COIC",
+    "isin": "SE0003950864"
+  },
+  {
+    "name": "Cramo Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "CRA1V",
+    "isin": "FI0009900476"
+  },
+  {
+    "name": "D/S Norden",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "DNORD",
+    "isin": "DK0060083210"
+  },
+  {
+    "name": "DFDS",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "DFDS",
+    "isin": "DK0010259027"
+  },
+  {
+    "name": "Eimskipafélag Íslands hf ",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "EIM",
+    "isin": "IS0000019800"
+  },
+  {
+    "name": "Fagerhult, AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "FAG",
+    "isin": "SE0000379844"
+  },
+  {
+    "name": "Finnlines Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "FLG1S",
+    "isin": "FI0009003644"
+  },
+  {
+    "name": "Gunnebo AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "GUNN",
+    "isin": "SE0000195570"
+  },
+  {
+    "name": "Indutrade AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "INDT",
+    "isin": "SE0001515552"
+  },
+  {
+    "name": "Lassila &Tikanoja Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "LAT1V",
+    "isin": "FI0009010854"
+  },
+  {
+    "name": "Lemminkäinen Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "LEM1S",
+    "isin": "FI0009900336"
+  },
+  {
+    "name": "Lindab International AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "LIAB",
+    "isin": "SE0001852419"
+  },
+  {
+    "name": "Loomis AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "LOOM B",
+    "isin": "SE0002683557"
+  },
+  {
+    "name": "Marel hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "MARL",
+    "isin": "IS0000000388"
+  },
+  {
+    "name": "NKT Holding",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "NKT",
+    "isin": "DK0010287663"
+  },
+  {
+    "name": "Nolato AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "NOLA B",
+    "isin": "SE0000109811"
+  },
+  {
+    "name": "PKC Group Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "PKC1V",
+    "isin": "FI0009006381"
+  },
+  {
+    "name": "Ponsse Oyj 1",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "PON1V",
+    "isin": "FI0009005078"
+  },
+  {
+    "name": "Proffice AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "PROE B",
+    "isin": "SE0000470700"
+  },
+  {
+    "name": "Pöyry Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "POY1V",
+    "isin": "FI0009006696"
+  },
+  {
+    "name": "Ramirent Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "RMR1V",
+    "isin": "FI0009007066"
+  },
+  {
+    "name": "Schouw & Co.",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "SCHO",
+    "isin": "DK0010253921"
+  },
+  {
+    "name": "Solar B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "SOLAR B",
+    "isin": "DK0010274844"
+  },
+  {
+    "name": "SRV Group plc",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "SRV1V",
+    "isin": "FI0009015309"
+  },
+  {
+    "name": "SWECO AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "SWEC A",
+    "isin": "SE0000489080"
+  },
+  {
+    "name": "SWECO AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "SWEC B",
+    "isin": "SE0000489098"
+  },
+  {
+    "name": "Systemair AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "SYSR",
+    "isin": "SE0002133975"
+  },
+  {
+    "name": "Tikkurila Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "TIK1V",
+    "isin": "FI4000008719"
+  },
+  {
+    "name": "Uponor Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "UNR1V",
+    "isin": "FI0009002158"
+  },
+  {
+    "name": "Vacon Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "VAC1V",
+    "isin": "FI0009009567"
+  },
+  {
+    "name": "Vaisala Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "VAIAS",
+    "isin": "FI0009900682"
+  },
+  {
+    "name": "ÅF AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Industrials",
+    "code": "AF B",
+    "isin": "SE0000115578"
+  },
+  {
+    "name": "Black Pearl Resources Inc",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Oil & Gas",
+    "code": "PXXS SDB",
+    "isin": "SE0002060863"
+  },
+  {
+    "name": "EnQuest plc ",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Oil & Gas",
+    "code": "ENQ",
+    "isin": "GB00B635TG28"
+  },
+  {
+    "name": "Tethys Oil AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Oil & Gas",
+    "code": "TETY",
+    "isin": "SE0001176298"
+  },
+  {
+    "name": "Basware Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "BAS1V",
+    "isin": "FI0009008403"
+  },
+  {
+    "name": "F-Secure Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "FSC1V",
+    "isin": "FI0009801310"
+  },
+  {
+    "name": "HiQ International AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "HIQ",
+    "isin": "SE0005137031"
+  },
+  {
+    "name": "Industrial & Financial Systems AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "IFS A",
+    "isin": "SE0000189953"
+  },
+  {
+    "name": "Industrial & Financial Systems AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "IFS B",
+    "isin": "SE0000189946"
+  },
+  {
+    "name": "SimCorp",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "SIM",
+    "isin": "DK0060495240"
+  },
+  {
+    "name": "Transmode AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "MID",
+    "industry": "Technology",
+    "code": "TRMO",
+    "isin": "SE0001471103"
+  },
+  {
+    "name": "Greentech Energy Systems",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "MID",
+    "industry": "Utilities",
+    "code": "GES",
+    "isin": "DK0010240514"
+  },
+  {
+    "name": "Arctic Paper S.A.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "ARP",
+    "isin": "PLARTPR00012"
+  },
+  {
+    "name": "BE Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "BEGR",
+    "isin": "SE0001852211"
+  },
+  {
+    "name": "Bergs Timber AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "BRG B",
+    "isin": "SE0000101297"
+  },
+  {
+    "name": "Endomines AB",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "ENDOM",
+    "isin": "SE0001803131"
+  },
+  {
+    "name": "Endomines AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "ENDO",
+    "isin": "SE0001803131"
+  },
+  {
+    "name": "Nordic Mines AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "NOMI",
+    "isin": "SE0001672809"
+  },
+  {
+    "name": "NunaMinerals A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "NUNA",
+    "isin": "DK0060492577"
+  },
+  {
+    "name": "ProfilGruppen AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "PROF B",
+    "isin": "SE0000393860"
+  },
+  {
+    "name": "Rottneros AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "RROS",
+    "isin": "SE0000112252"
+  },
+  {
+    "name": "Sotkamo Silver AB",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "SOSI1",
+    "isin": "SE0001057910"
+  },
+  {
+    "name": "SP Group",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Basic Materials",
+    "code": "SPG",
+    "isin": "DK0010244771"
+  },
+  {
+    "name": "ACAP Invest AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "ACAP A",
+    "isin": "SE0000937674"
+  },
+  {
+    "name": "ACAP Invest AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "ACAP B",
+    "isin": "SE0000937682"
+  },
+  {
+    "name": "Apetit Plc",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "APETI",
+    "isin": "FI0009003503"
+  },
+  {
+    "name": "Björn Borg AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "BORG",
+    "isin": "SE0005188349"
+  },
+  {
+    "name": "BoConcept Holding B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "BOCON B",
+    "isin": "DK0060050201"
+  },
+  {
+    "name": "Dantax",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "DANT",
+    "isin": "DK0015205637"
+  },
+  {
+    "name": "Egetæpper B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "EGE B",
+    "isin": "DK0060458206"
+  },
+  {
+    "name": "Expedit B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "EXP B",
+    "isin": "DK0015312474"
+  },
+  {
+    "name": "FinnvedenBulten AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "FBAB",
+    "isin": "SE0003849223"
+  },
+  {
+    "name": "First Farms A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "FFARMS",
+    "isin": "DK0060056166"
+  },
+  {
+    "name": "Gabriel Holding",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "GABR",
+    "isin": "DK0060124691"
+  },
+  {
+    "name": "Harboes Bryggeri B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "HARB B",
+    "isin": "DK0060014751"
+  },
+  {
+    "name": "Honkarakenne Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "HONBS",
+    "isin": "FI0009900104"
+  },
+  {
+    "name": "KABE AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "KABE B",
+    "isin": "SE0000107724"
+  },
+  {
+    "name": "Lammhults Design Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "LAMM B",
+    "isin": "SE0000386138"
+  },
+  {
+    "name": "Marimekko Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "MMO1V",
+    "isin": "FI0009007660"
+  },
+  {
+    "name": "Martela Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "MARAS",
+    "isin": "FI0009900385"
+  },
+  {
+    "name": "Midsona AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "MSON A",
+    "isin": "SE0000565210"
+  },
+  {
+    "name": "Midsona AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "MSON B",
+    "isin": "SE0000565228"
+  },
+  {
+    "name": "Odd Molly International AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "ODD",
+    "isin": "SE0002017657"
+  },
+  {
+    "name": "Opcon AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "OPCO",
+    "isin": "SE0000426652"
+  },
+  {
+    "name": "Saga Furs Oyj C",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "SAGCV",
+    "isin": "FI0009800551"
+  },
+  {
+    "name": "Scandinavian Brake Systems A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "SBS",
+    "isin": "DK0060042612"
+  },
+  {
+    "name": "Strategic Investments A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "STRINV",
+    "isin": "DK0010271238"
+  },
+  {
+    "name": "Suominen Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "SUY1V",
+    "isin": "FI0009010862"
+  },
+  {
+    "name": "Trigon Agri A/S",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "TAGR",
+    "isin": "DK0060083566"
+  },
+  {
+    "name": "VBG GROUP AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Goods",
+    "code": "VBG B",
+    "isin": "SE0000115107"
+  },
+  {
+    "name": "AaB",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "AAB",
+    "isin": "DK0010247014"
+  },
+  {
+    "name": "Aarhus Elite B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "ELITE B",
+    "isin": "DK0010263722"
+  },
+  {
+    "name": "Andersen & Martini B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "AM B",
+    "isin": "DK0010283597"
+  },
+  {
+    "name": "Atlantic Airways P/ F",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "FO-AIR CSE",
+    "isin": "FO0000000062"
+  },
+  {
+    "name": "Atlantic Airways P/ F",
+    "currency": "DKK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "FO-AIR",
+    "isin": "FO0000000062"
+  },
+  {
+    "name": "Brøndbyernes IF Fodbold A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "BIF",
+    "isin": "DK0010247956"
+  },
+  {
+    "name": "Electra Gruppen AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "ELEC",
+    "isin": "SE0001572520"
+  },
+  {
+    "name": "EuroInvestor.com A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "EI",
+    "isin": "DK0060074656"
+  },
+  {
+    "name": "Gyldendal A",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "GYLD A",
+    "isin": "DK0010247527"
+  },
+  {
+    "name": "Gyldendal B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "GYLD B",
+    "isin": "DK0010247600"
+  },
+  {
+    "name": "Hagar hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "HAGA",
+    "isin": "IS0000020121"
+  },
+  {
+    "name": "Hemtex AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "HEMX",
+    "isin": "SE0000698268"
+  },
+  {
+    "name": "Land & Leisure A",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "LL A",
+    "isin": "DK0010243534"
+  },
+  {
+    "name": "Land & Leisure B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "LL B",
+    "isin": "DK0010240860"
+  },
+  {
+    "name": "Mols-Linien",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "MOLS",
+    "isin": "DK0060135465"
+  },
+  {
+    "name": "MQ Holding AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "MQ",
+    "isin": "SE0003303460"
+  },
+  {
+    "name": "Nordic Service Partners Holding AB ser B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "NSP B",
+    "isin": "SE0000476954"
+  },
+  {
+    "name": "North Media A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "NORTHM",
+    "isin": "DK0010270347"
+  },
+  {
+    "name": "PARKEN Sport & Entertainment",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "PARKEN",
+    "isin": "DK0010237643"
+  },
+  {
+    "name": "Pohjois-Karjalan Kirjapaino Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "PKK1V",
+    "isin": "FI0009900468"
+  },
+  {
+    "name": "RNB RETAIL AND BRANDS AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "RNBS",
+    "isin": "SE0005223674"
+  },
+  {
+    "name": "Sanistål",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "SANI",
+    "isin": "DK0010245661"
+  },
+  {
+    "name": "Silkeborg IF Invest B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "SIF B",
+    "isin": "DK0010128008"
+  },
+  {
+    "name": "SmartGuy Group",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "SMART",
+    "isin": "DK0060046522"
+  },
+  {
+    "name": "Talentum Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "TTM1V",
+    "isin": "FI0009900898"
+  },
+  {
+    "name": "TradeDoubler AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "TRAD",
+    "isin": "SE0001552357"
+  },
+  {
+    "name": "Venue Retail Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "VRG B",
+    "isin": "SE0000396822"
+  },
+  {
+    "name": "Viborg Håndbold Klub",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Consumer Services",
+    "code": "VIBHK",
+    "isin": "DK0016017171"
+  },
+  {
+    "name": "Alm. Brand Formue B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "ALMBF B",
+    "isin": "DK0010300276"
+  },
+  {
+    "name": "Asgaard Group",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "ASGGRO",
+    "isin": "DK0010131309"
+  },
+  {
+    "name": "BankNordik P/F",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "BNORDIK CSE",
+    "isin": "FO0000000088"
+  },
+  {
+    "name": "BankNordik P/F",
+    "currency": "DKK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "BNORDIK",
+    "isin": "FO0000000088"
+  },
+  {
+    "name": "Berlin IV B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "BERLIV B",
+    "isin": "DK0060085694"
+  },
+  {
+    "name": "Blue Vision",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "BLVIS",
+    "isin": "DK0060278737"
+  },
+  {
+    "name": "CapMan Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "CPMBV",
+    "isin": "FI0009009377"
+  },
+  {
+    "name": "Catena AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "CATE",
+    "isin": "SE0001664707"
+  },
+  {
+    "name": "Danske Andelskassers Bank A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "DAB",
+    "isin": "DK0060299063"
+  },
+  {
+    "name": "Deltaq, A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "DELTAQ",
+    "isin": "DK0060090181"
+  },
+  {
+    "name": "DiBa Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "DIBA",
+    "isin": "DK0060076941"
+  },
+  {
+    "name": "Djurslands Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "DJUR",
+    "isin": "DK0060136273"
+  },
+  {
+    "name": "eQ Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "EQV1V",
+    "isin": "FI0009009617"
+  },
+  {
+    "name": "Formuepleje LimiTTellus A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "FPLIM",
+    "isin": "DK0016310980"
+  },
+  {
+    "name": "Formuepleje Markur A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "FPMER",
+    "isin": "DK0016042609"
+  },
+  {
+    "name": "Formuepleje Optimum A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "FPOPT",
+    "isin": "DK0060026680"
+  },
+  {
+    "name": "German High Street Properties B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "GERHSP B",
+    "isin": "DK0060093524"
+  },
+  {
+    "name": "Grønlandsbanken",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "GRLA",
+    "isin": "DK0010230630"
+  },
+  {
+    "name": "Havsfrun Investment AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "HAV B",
+    "isin": "SE0000312043"
+  },
+  {
+    "name": "Hvidbjerg Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "HVID",
+    "isin": "DK0060135978"
+  },
+  {
+    "name": "Jensen & Møller Invest",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "JMI",
+    "isin": "DK0010020668"
+  },
+  {
+    "name": "KlimaInvest A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "KLIMA",
+    "isin": "DK0060093607"
+  },
+  {
+    "name": "Kreditbanken",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "KRE",
+    "isin": "DK0010253764"
+  },
+  {
+    "name": "Lollands Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "LOLB",
+    "isin": "DK0060000107"
+  },
+  {
+    "name": "Luxor B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "LUXOR B",
+    "isin": "DK0010213628"
+  },
+  {
+    "name": "Lån og Spar Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "LASP",
+    "isin": "DK0010201532"
+  },
+  {
+    "name": "Midway Holding AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "MIDW A",
+    "isin": "SE0000122657"
+  },
+  {
+    "name": "Midway Holding AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "MIDW B",
+    "isin": "SE0000122673"
+  },
+  {
+    "name": "Møns Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "MNBA",
+    "isin": "DK0060133841"
+  },
+  {
+    "name": "NAXS Nordic Access Buyout Fund AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NAXS",
+    "isin": "SE0001965369"
+  },
+  {
+    "name": "Newcap Holding A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NEWCAP",
+    "isin": "DK0010212570"
+  },
+  {
+    "name": "Nordfyns Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NRDF",
+    "isin": "DK0010015072"
+  },
+  {
+    "name": "Nordicom",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NRDC",
+    "isin": "DK0010158500"
+  },
+  {
+    "name": "Nordjyske Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NORDJB",
+    "isin": "DK0060034353"
+  },
+  {
+    "name": "Norvestia Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NVABV",
+    "isin": "FI0009000160"
+  },
+  {
+    "name": "Novestra AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NOVE",
+    "isin": "SE0005392529"
+  },
+  {
+    "name": "NTR Holding B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NTR B",
+    "isin": "DK0010027671"
+  },
+  {
+    "name": "Nørresundby Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "NRSU",
+    "isin": "DK0060135549"
+  },
+  {
+    "name": "Orava Asuinkiinteistörahasto Oyj ",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "OREIT",
+    "isin": "FI4000068614"
+  },
+  {
+    "name": "Panostaja Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "PNA1V",
+    "isin": "FI0009800379"
+  },
+  {
+    "name": "Prime Office A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "PRIMOF",
+    "isin": "DK0060137594"
+  },
+  {
+    "name": "Re-Cap B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "RECAP B",
+    "isin": "DK0060052843"
+  },
+  {
+    "name": "Reginn hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "REGINN",
+    "isin": "IS0000021301"
+  },
+  {
+    "name": "Rella Holding A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "RELLA",
+    "isin": "DK0016033889"
+  },
+  {
+    "name": "Salling Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SALB",
+    "isin": "DK0010017367"
+  },
+  {
+    "name": "Scandinavian Private Equity A/S ",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SPEAS",
+    "isin": "DK0060068682"
+  },
+  {
+    "name": "Sievi Capital Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SCI1V",
+    "isin": "FI0009008924"
+  },
+  {
+    "name": "Skjern Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SKJE",
+    "isin": "DK0010295922"
+  },
+  {
+    "name": "Small Cap Danmark",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SCD",
+    "isin": "DK0010305077"
+  },
+  {
+    "name": "Sparekassen Himmerland",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SPHIM",
+    "isin": "DK0060050045"
+  },
+  {
+    "name": "SSK S.Säästäjien Kiinteistöt Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SSK1S",
+    "isin": "FI0009900559"
+  },
+  {
+    "name": "Svendborg Sparekasse",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SVEND",
+    "isin": "DK0010282359"
+  },
+  {
+    "name": "Svolder AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SVOL A",
+    "isin": "SE0000205932"
+  },
+  {
+    "name": "Svolder AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "SVOL B",
+    "isin": "SE0000205940"
+  },
+  {
+    "name": "TK Development",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "TKDV",
+    "isin": "DK0010258995"
+  },
+  {
+    "name": "Totalbanken",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "TOTA",
+    "isin": "DK0060082758"
+  },
+  {
+    "name": "Traction AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "TRAC B",
+    "isin": "SE0000391716"
+  },
+  {
+    "name": "Tryggingamiðstöðin hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "TM",
+    "isin": "IS0000000586"
+  },
+  {
+    "name": "Vátryggingafélag Íslands hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "VIS",
+    "isin": "IS0000007078"
+  },
+  {
+    "name": "Vestfyns Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "VEFY",
+    "isin": "DK0010019306"
+  },
+  {
+    "name": "Vestjysk Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "VJBA",
+    "isin": "DK0010304500"
+  },
+  {
+    "name": "Victor International",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "VIINT",
+    "isin": "DK0010022367"
+  },
+  {
+    "name": "Victoria Properties",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "VIPRO",
+    "isin": "DK0015216675"
+  },
+  {
+    "name": "Vordingborg Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "VORD",
+    "isin": "DK0010019652"
+  },
+  {
+    "name": "Østjydsk Bank",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Financials",
+    "code": "OJBA",
+    "isin": "DK0010017607"
+  },
+  {
+    "name": "Allenex AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "ALNX",
+    "isin": "SE0000619181"
+  },
+  {
+    "name": "Biohit Oyj B",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "BIOBV",
+    "isin": "FI0009005482"
+  },
+  {
+    "name": "BioInvent International AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "BINV",
+    "isin": "SE0000789711"
+  },
+  {
+    "name": "BioPorto",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "BIOPOR",
+    "isin": "DK0011048619"
+  },
+  {
+    "name": "Biotage AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "BIOT",
+    "isin": "SE0000454746"
+  },
+  {
+    "name": "Boule Diagnostics AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "BOUL",
+    "isin": "SE0000437402"
+  },
+  {
+    "name": "CellaVision AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "CEVI",
+    "isin": "SE0000683484"
+  },
+  {
+    "name": "ChemoMetec A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "CHEMM",
+    "isin": "DK0060055861"
+  },
+  {
+    "name": "Dedicare AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "DEDI",
+    "isin": "SE0003909282"
+  },
+  {
+    "name": "Elos AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "ELOS B",
+    "isin": "SE0000120776"
+  },
+  {
+    "name": "Exiqon A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "EXQ",
+    "isin": "DK0060077758"
+  },
+  {
+    "name": "Feelgood Svenska AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "FEEL",
+    "isin": "SE0000381840"
+  },
+  {
+    "name": "Global Health Partner AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "GHP",
+    "isin": "SE0002579912"
+  },
+  {
+    "name": "Immune Pharmaceuticals Inc",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "IMNP",
+    "isin": "US45254C1018"
+  },
+  {
+    "name": "Karo Bio AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "KARO",
+    "isin": "SE0000571416"
+  },
+  {
+    "name": "Karolinska Development AB ser.B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "KDEV",
+    "isin": "SE0002190926"
+  },
+  {
+    "name": "Moberg Pharma AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "MOB",
+    "isin": "SE0003613090"
+  },
+  {
+    "name": "NeuroSearch",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "NEUR",
+    "isin": "DK0010224666"
+  },
+  {
+    "name": "NeuroVive Pharmaceutical AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "NVP",
+    "isin": "SE0002575340"
+  },
+  {
+    "name": "Oasmia Pharmaceutical AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "OASM",
+    "isin": "SE0000722365"
+  },
+  {
+    "name": "Oral Hammaslääkärit Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "ORA1V",
+    "isin": "FI0009007751"
+  },
+  {
+    "name": "Orexo AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "ORX",
+    "isin": "SE0000736415"
+  },
+  {
+    "name": "Ortivus AB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "ORTI A",
+    "isin": "SE0000188930"
+  },
+  {
+    "name": "Ortivus AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "ORTI B",
+    "isin": "SE0000123085"
+  },
+  {
+    "name": "Probi AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "PROB",
+    "isin": "SE0001280355"
+  },
+  {
+    "name": "RaySearch Laboratories AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "RAY B",
+    "isin": "SE0000135485"
+  },
+  {
+    "name": "TopoTarget",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "TOPO",
+    "isin": "DK0060003556"
+  },
+  {
+    "name": "Veloxis Pharmaceuticals A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "VELO",
+    "isin": "DK0060048148"
+  },
+  {
+    "name": "Vitrolife AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Health Care",
+    "code": "VITR",
+    "isin": "SE0000816043"
+  },
+  {
+    "name": "Arcam AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ARCM",
+    "isin": "SE0001104209"
+  },
+  {
+    "name": "Arkil Holding B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ARKIL B",
+    "isin": "DK0010025113"
+  },
+  {
+    "name": "Aspocomp Group Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ACG1V",
+    "isin": "FI0009008080"
+  },
+  {
+    "name": "Beijer Electronics AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "BELE",
+    "isin": "SE0000671711"
+  },
+  {
+    "name": "Bong AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "BONG",
+    "isin": "SE0000396061"
+  },
+  {
+    "name": "Brd. Klee B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "KLEE B",
+    "isin": "DK0010129089"
+  },
+  {
+    "name": "Brdr. A & O Johansen præf.",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "AOJ P",
+    "isin": "DK0010231018"
+  },
+  {
+    "name": "Brdr.Hartmann",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "HART",
+    "isin": "DK0010256197"
+  },
+  {
+    "name": "BTS Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "BTS B",
+    "isin": "SE0000805426"
+  },
+  {
+    "name": "Cavotec SA",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CCC",
+    "isin": "CH0136071542"
+  },
+  {
+    "name": "Cencorp Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CNC1V",
+    "isin": "FI0009006951"
+  },
+  {
+    "name": "Cision AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CSN",
+    "isin": "SE0000291486"
+  },
+  {
+    "name": "Componenta Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CTH1V",
+    "isin": "FI0009010110"
+  },
+  {
+    "name": "Concordia Maritime AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CCOR B",
+    "isin": "SE0000102824"
+  },
+  {
+    "name": "Consilium AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CONS B",
+    "isin": "SE0000236382"
+  },
+  {
+    "name": "CTT Systems AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "CTT",
+    "isin": "SE0000418923"
+  },
+  {
+    "name": "Dantherm A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "DANTH",
+    "isin": "DK0010223692"
+  },
+  {
+    "name": "DLH",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "DLH",
+    "isin": "DK0060038933"
+  },
+  {
+    "name": "Dovre Group Plc",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "DOV1V",
+    "isin": "FI0009008098"
+  },
+  {
+    "name": "Duroc AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "DURC B",
+    "isin": "SE0000331266"
+  },
+  {
+    "name": "Efore Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "EFO1V",
+    "isin": "FI0009900054"
+  },
+  {
+    "name": "Elanders AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ELAN B",
+    "isin": "SE0000119299"
+  },
+  {
+    "name": "Elecster Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ELEAV",
+    "isin": "FI0009900658"
+  },
+  {
+    "name": "Erria A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ERRIA",
+    "isin": "DK0060101483"
+  },
+  {
+    "name": "Etteplan Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ETT1V",
+    "isin": "FI0009008650"
+  },
+  {
+    "name": "eWork Scandinavia AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "EWRK",
+    "isin": "SE0002402701"
+  },
+  {
+    "name": "Exel Composites Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "EXL1V",
+    "isin": "FI0009007306"
+  },
+  {
+    "name": "F.E. Bording B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "BORD B",
+    "isin": "DK0010008028"
+  },
+  {
+    "name": "Fingerprint Cards AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "FING B",
+    "isin": "SE0000422107"
+  },
+  {
+    "name": "Flügger B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "FLUG B",
+    "isin": "DK0010218189"
+  },
+  {
+    "name": "Geveko, AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "GVKO B",
+    "isin": "SE0000105264"
+  },
+  {
+    "name": "Glaston  Corporation",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "GLA1V",
+    "isin": "FI0009010219"
+  },
+  {
+    "name": "Glunz & Jensen",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "GJ",
+    "isin": "DK0010249309"
+  },
+  {
+    "name": "H+H International",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "HH",
+    "isin": "DK0015202451"
+  },
+  {
+    "name": "Højgaard Holding A",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "HOEJ A",
+    "isin": "DK0010255892"
+  },
+  {
+    "name": "Højgaard Holding B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "HOEJ B",
+    "isin": "DK0010255975"
+  },
+  {
+    "name": "Image Systems AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "IS",
+    "isin": "SE0000556292"
+  },
+  {
+    "name": "Incap Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ICP1V",
+    "isin": "FI0009006407"
+  },
+  {
+    "name": "Intellecta AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ICTA B",
+    "isin": "SE0000135287"
+  },
+  {
+    "name": "InterMail B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "IMAIL B",
+    "isin": "DK0010212224"
+  },
+  {
+    "name": "ITAB Shop Concept AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ITAB B",
+    "isin": "SE0001198714"
+  },
+  {
+    "name": "Kesla Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "KELAS",
+    "isin": "FI0009900237"
+  },
+  {
+    "name": "Lagercrantz Group AB ser B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "LAGR B",
+    "isin": "SE0000808396"
+  },
+  {
+    "name": "Malmbergs Elektriska AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "MEAB B",
+    "isin": "SE0000507659"
+  },
+  {
+    "name": "Micronic Mydata AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "MICR",
+    "isin": "SE0000375115"
+  },
+  {
+    "name": "Migatronic B.",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "MIGA B",
+    "isin": "DK0010225127"
+  },
+  {
+    "name": "Monberg. & Thorsen B.",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "MT B",
+    "isin": "DK0010224310"
+  },
+  {
+    "name": "Nederman Holding AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "NMAN",
+    "isin": "SE0002000083"
+  },
+  {
+    "name": "Neo Industrial Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "NEO1V",
+    "isin": "FI0009800296"
+  },
+  {
+    "name": "NOTE AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "NOTE",
+    "isin": "SE0001161654"
+  },
+  {
+    "name": "Nurminen Logistics Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "NLG1V",
+    "isin": "FI0009900187"
+  },
+  {
+    "name": "OEM International AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "OEM B",
+    "isin": "SE0000110116"
+  },
+  {
+    "name": "Opus Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "OPUS",
+    "isin": "SE0001696683"
+  },
+  {
+    "name": "PartnerTech AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "PART",
+    "isin": "SE0000394165"
+  },
+  {
+    "name": "Per Aarsleff B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "PAAL B",
+    "isin": "DK0010243450"
+  },
+  {
+    "name": "Poolia AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "POOL B",
+    "isin": "SE0000567539"
+  },
+  {
+    "name": "Precise Biometrics AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "PREC",
+    "isin": "SE0001823303"
+  },
+  {
+    "name": "Pricer AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "PRIC B",
+    "isin": "SE0000233934"
+  },
+  {
+    "name": "Raute Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "RUTAV",
+    "isin": "FI0009004741"
+  },
+  {
+    "name": "Rederi AB Transatlantic ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "RABT B",
+    "isin": "SE0000143521"
+  },
+  {
+    "name": "Rejlers AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "REJL B",
+    "isin": "SE0000123671"
+  },
+  {
+    "name": "Revenio Group Corporation",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "REG1V",
+    "isin": "FI0009010912"
+  },
+  {
+    "name": "Rias B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "RIAS B",
+    "isin": "DK0010125848"
+  },
+  {
+    "name": "Roblon B",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "RBLN B",
+    "isin": "DK0060485019"
+  },
+  {
+    "name": "Rörvik Timber AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "RTIM B",
+    "isin": "SE0000387318"
+  },
+  {
+    "name": "Scanfil Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SCL1V",
+    "isin": "FI4000029905"
+  },
+  {
+    "name": "Semcon AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SEMC",
+    "isin": "SE0000379497"
+  },
+  {
+    "name": "Sensys Traffic AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SENS",
+    "isin": "SE0000567729"
+  },
+  {
+    "name": "SinterCast AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SINT",
+    "isin": "SE0000950982"
+  },
+  {
+    "name": "SKAKO A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SKAKO",
+    "isin": "DK0010231877"
+  },
+  {
+    "name": "SSBV-Rovsing A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "ROV",
+    "isin": "DK0060400398"
+  },
+  {
+    "name": "Studsvik AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SVIK",
+    "isin": "SE0000653230"
+  },
+  {
+    "name": "Svedbergs i Dalstorp AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "SVED B",
+    "isin": "SE0000407991"
+  },
+  {
+    "name": "Takoma Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "TAM1V",
+    "isin": "FI0009901110"
+  },
+  {
+    "name": "Torm A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "TORM",
+    "isin": "DK0060082915"
+  },
+  {
+    "name": "Transcom WorldWide S.A SDB ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "TWW SDB A",
+    "isin": "SE0000818023"
+  },
+  {
+    "name": "Transcom WorldWide S.A SDB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "TWW SDB B",
+    "isin": "SE0000818031"
+  },
+  {
+    "name": "Tulikivi Oyj A",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "TULAV",
+    "isin": "FI0009900583"
+  },
+  {
+    "name": "Turvatiimi Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "TUT1V",
+    "isin": "FI0009901045"
+  },
+  {
+    "name": "Uniflex AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "UFLX B",
+    "isin": "SE0001283607"
+  },
+  {
+    "name": "Vaahto Group Plc Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "WAT1V",
+    "isin": "FI0009900708"
+  },
+  {
+    "name": "Wulff-Yhtiöt Oy",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "WUF1V",
+    "isin": "FI0009008452"
+  },
+  {
+    "name": "XANO Industri AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "XANO B",
+    "isin": "SE0000119224"
+  },
+  {
+    "name": "Yleiselektroniikka Oyj E",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Industrials",
+    "code": "YLEPS",
+    "isin": "FI0009900724"
+  },
+  {
+    "name": "Atlantic Petroleum P/F",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Oil & Gas",
+    "code": "FO-ATLA CSE",
+    "isin": "FO000A0DN9X4"
+  },
+  {
+    "name": "Atlantic Petroleum P/F",
+    "currency": "DKK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Oil & Gas",
+    "code": "FO-ATLA",
+    "isin": "FO000A0DN9X4"
+  },
+  {
+    "name": "Nordic Shipholding A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Oil & Gas",
+    "code": "NORDIC",
+    "isin": "DK0060083996"
+  },
+  {
+    "name": "PA Resources AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Oil & Gas",
+    "code": "PAR",
+    "isin": "SE0005126729"
+  },
+  {
+    "name": "Shelton Petroleum AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Oil & Gas",
+    "code": "SHEL B",
+    "isin": "SE0000514572"
+  },
+  {
+    "name": "Acando AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "ACAN B",
+    "isin": "SE0000105116"
+  },
+  {
+    "name": "AddNode Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "ANOD B",
+    "isin": "SE0000472268"
+  },
+  {
+    "name": "Affecto Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "AFE1V",
+    "isin": "FI0009013312"
+  },
+  {
+    "name": "Anoto Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "ANOT",
+    "isin": "SE0000547929"
+  },
+  {
+    "name": "Aspiro AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "ASP",
+    "isin": "SE0000500258"
+  },
+  {
+    "name": "Avega Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "AVEG B",
+    "isin": "SE0002180539"
+  },
+  {
+    "name": "cBrain A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "CBRAIN",
+    "isin": "DK0060030286"
+  },
+  {
+    "name": "Columbus A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "COLUM",
+    "isin": "DK0010268366"
+  },
+  {
+    "name": "Comendo A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "COM",
+    "isin": "DK0060055515"
+  },
+  {
+    "name": "Comptel Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "CTL1V",
+    "isin": "FI0009008221"
+  },
+  {
+    "name": "Connecta AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "CNTA",
+    "isin": "SE0001161530"
+  },
+  {
+    "name": "Cybercom Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "CYBE",
+    "isin": "SE0000702169"
+  },
+  {
+    "name": "Digia Plc",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "DIG1V",
+    "isin": "FI0009007983"
+  },
+  {
+    "name": "DORO AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "DORO",
+    "isin": "SE0000215493"
+  },
+  {
+    "name": "Elektrobit Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "EBC1V",
+    "isin": "FI0009007264"
+  },
+  {
+    "name": "Enea AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "ENEA",
+    "isin": "SE0005188471"
+  },
+  {
+    "name": "FormPipe Software AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "FPIP",
+    "isin": "SE0001338039"
+  },
+  {
+    "name": "HMS Networks AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "HMS",
+    "isin": "SE0002136242"
+  },
+  {
+    "name": "I.A.R Systems Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "IAR B",
+    "isin": "SE0000373128"
+  },
+  {
+    "name": "Innofactor Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "IFA1V",
+    "isin": "FI0009007637"
+  },
+  {
+    "name": "Ixonos Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "XNS1V",
+    "isin": "FI0009008007"
+  },
+  {
+    "name": "Knowit AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "KNOW",
+    "isin": "SE0000421273"
+  },
+  {
+    "name": "Micro Systemation AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "MSAB B",
+    "isin": "SE0000526626"
+  },
+  {
+    "name": "MSC Konsult AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "MSC B",
+    "isin": "SE0000395105"
+  },
+  {
+    "name": "MultiQ International AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "MULQ",
+    "isin": "SE0000353898"
+  },
+  {
+    "name": "Net Insight AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "NETI B",
+    "isin": "SE0000366098"
+  },
+  {
+    "name": "NOVOTEK AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "NTEK B",
+    "isin": "SE0000567752"
+  },
+  {
+    "name": "Nýherji hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "NYHR",
+    "isin": "IS0000000396"
+  },
+  {
+    "name": "Okmetic Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "OKM1V",
+    "isin": "FI0009009054"
+  },
+  {
+    "name": "Phonera AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "PHON",
+    "isin": "SE0000582603"
+  },
+  {
+    "name": "Prevas AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "PREV B",
+    "isin": "SE0000356008"
+  },
+  {
+    "name": "Proact IT Group AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "PACT",
+    "isin": "SE0000412991"
+  },
+  {
+    "name": "QPR Software Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "QPR1V",
+    "isin": "FI0009008668"
+  },
+  {
+    "name": "ReadSoft AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "RSOF B",
+    "isin": "SE0000479107"
+  },
+  {
+    "name": "RTX A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "RTX",
+    "isin": "DK0010267129"
+  },
+  {
+    "name": "Seamless Distribution AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "SEAM",
+    "isin": "SE0000857369"
+  },
+  {
+    "name": "Softronic AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "SOF B",
+    "isin": "SE0000323305"
+  },
+  {
+    "name": "Solteq Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "STQ1V",
+    "isin": "FI0009007991"
+  },
+  {
+    "name": "SSH Communications Security Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "SSH1V",
+    "isin": "FI0009008270"
+  },
+  {
+    "name": "StjärnaFyrkant AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "STFY",
+    "isin": "SE0001159344"
+  },
+  {
+    "name": "Stonesoft Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "SFT1V",
+    "isin": "FI0009801302"
+  },
+  {
+    "name": "Tecnotree Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "TEM1V",
+    "isin": "FI0009010227"
+  },
+  {
+    "name": "Teleste Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "TLT1V",
+    "isin": "FI0009007728"
+  },
+  {
+    "name": "Topsil Semiconductor Materials",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "TPSL",
+    "isin": "DK0010271584"
+  },
+  {
+    "name": "Trainers´ House Oyj",
+    "currency": "EUR",
+    "exchange": "HEL",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "TRH1V",
+    "isin": "FI0009008122"
+  },
+  {
+    "name": "Trifork A/S",
+    "currency": "DKK",
+    "exchange": "CPH",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "TRIFOR",
+    "isin": "DK0060102887"
+  },
+  {
+    "name": "Vitec Software Group AB ser. B",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Technology",
+    "code": "VIT B",
+    "isin": "SE0000514630"
+  },
+  {
+    "name": "AllTele Allmänna Svenska Telefonab ser. A",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Telecommunications",
+    "code": "ATEL A",
+    "isin": "SE0001625534"
+  },
+  {
+    "name": "DGC One AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Telecommunications",
+    "code": "DGC",
+    "isin": "SE0002571539"
+  },
+  {
+    "name": "Fjarskipti hf.",
+    "currency": "ISK",
+    "exchange": "ICE",
+    "size": "SMALL",
+    "industry": "Telecommunications",
+    "code": "VOICE",
+    "isin": "IS0000020485"
+  },
+  {
+    "name": "Arise AB",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Utilities",
+    "code": "ARISE",
+    "isin": "SE0002095604"
+  },
+  {
+    "name": "Etrion corp.",
+    "currency": "SEK",
+    "exchange": "STO",
+    "size": "SMALL",
+    "industry": "Utilities",
+    "code": "ETX",
+    "isin": "CA29786T1057"
+  }
+]
