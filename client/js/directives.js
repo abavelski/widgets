@@ -11,7 +11,7 @@ angular.module('myApp.directives', []).
   }])
 
   .directive('widget', function() {
-  return {
+    return {
     restrict: 'E',
     transclude: true,
     scope: { title:'@',
@@ -45,5 +45,26 @@ angular.module('myApp.directives', []).
       	element.hide();
       }
     }
-  }
-});
+    }
+  })
+  .directive('graph', function() {
+    return {
+      restrict: 'A',
+      link: function(scope, element, attrs) {
+          scope.getData(function(data){
+            console.log(data);
+            element.highcharts('StockChart', {
+              credits: {
+                enabled: false
+              },
+              series : [{
+                name : 'Stock',
+                data : data
+              }]
+            });
+          });
+      }
+    }
+  })
+
+

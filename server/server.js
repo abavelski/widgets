@@ -2,7 +2,7 @@ var express = require('express'),
 http = require('http'),
 config = require('./config'),
 fs = require('fs'),
-companies = require('./companies'),
+companies = require('./routes/companies'),
 app = express();
 
 
@@ -26,6 +26,6 @@ app.get('/', function(req, res) {
   });
 });
 
-var stockholmCompanies = JSON.parse(fs.readFileSync('./companies/stockholm.json'));
-companies(app, stockholmCompanies);
+
+companies(app);
 

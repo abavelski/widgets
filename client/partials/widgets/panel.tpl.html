@@ -2,9 +2,9 @@
 <widget title="Panel" minimizable="true">
 	<table ng-table="tableParams" template-pagination="partials/widgets/pager.tpl.html" class="table">
         <tr ng-repeat="company in $data">
+            <td data-title="'Symbol'"><a href="#/instrument/{{company.symbol}}/details">{{company.symbol}}</a></td>
             <td data-title="'Name'">{{company.name}}</td>
-            <td data-title="'Industry'">{{company.industry}}</td>
-            <td data-title="'Size'">{{company.size}}</td>
+            <td data-title="'Exchange'">{{company.exchDisp}}</td>
         </tr>
         </table>
 </widget>

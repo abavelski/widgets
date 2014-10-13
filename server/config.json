@@ -5,7 +5,7 @@
     "type" : "twelveSixSix", 
     "widgets" : {
       "north" : ["dashboard"],
-      "east" : ["widget1", "widget2"],
+      "east" : ["widget1"],
       "west" : ["panel"]
     }
   },
@@ -20,8 +20,17 @@
     "path" : "/view3", 
     "type" : "zeroSixSix", 
     "widgets" : {
-      "east" : ["widget1", "widget2"],
+      "east" : ["widget1"],
       "west" : ["panel"]
+    }
+  },
+  {
+    "path" : "/instrument/:symbol/details",
+    "type" : "twelveSixSix",
+    "widgets" : {
+      "north" : ["dashboard"],
+      "east" : ["stockInfo"],
+      "west" : ["graph"]
     }
   }
   ]

@@ -7,7 +7,8 @@ angular.module('myApp.services', [])
     	dashboard : 'partials/widgets/dashboard.tpl.html',
     	panel : 'partials/widgets/panel.tpl.html',
     	widget1 : 'partials/widgets/widget1.tpl.html',
-    	widget2 : 'partials/widgets/widget2.tpl.html'
+    	graph : 'partials/widgets/graph.tpl.html',
+    	stockInfo : 'partials/widgets/stockInfo.tpl.html'
     }
 })
 .factory('AppConfig', function() {

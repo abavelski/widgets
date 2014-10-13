@@ -27,7 +27,7 @@ angular.module('myApp', [
 .run(function($http, $templateCache) {
     $http.get("partials/widgets/panel.tpl.html", { cache: $templateCache });
     $http.get("partials/widgets/widget1.tpl.html", { cache: $templateCache });
-    $http.get("partials/widgets/widget2.tpl.html", { cache: $templateCache });
+    $http.get("partials/widgets/graph.tpl.html", { cache: $templateCache });
     $http.get("partials/widgets/dashboard.tpl.html", { cache: $templateCache });
 });
 
