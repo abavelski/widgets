@@ -1,34 +1,17 @@
 {
   "views": [
   {
-    "path" : "/view1", 
-    "type" : "twelveSixSix", 
-    "widgets" : {
-      "north" : ["dashboard"],
-      "east" : ["widget1"],
-      "west" : ["panel"]
-    }
-  },
-  {
-    "path" : "/view2", 
+    "path" : "/instruments", 
     "type" : "twelveZeroZero", 
     "widgets" : {
-      "north" : ["dashboard", "panel"]          
-    }
-  },
-  {
-    "path" : "/view3", 
-    "type" : "zeroSixSix", 
-    "widgets" : {
-      "east" : ["widget1"],
-      "west" : ["panel"]
+      "north" : ["search", "instrumentList"]          
     }
   },
   {
     "path" : "/instrument/:symbol/details",
     "type" : "twelveSixSix",
     "widgets" : {
-      "north" : ["dashboard"],
+      "north" : ["search"],
       "east" : ["stockInfo"],
       "west" : ["graph"]
     }

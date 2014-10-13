@@ -2,6 +2,6 @@
 
 module.exports = {
     server: {
-        staticFolder: __dirname+ '/../client'
+        staticFolder: __dirname+ '/../client/dist/'
     }
 };

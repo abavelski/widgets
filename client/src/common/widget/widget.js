@@ -1,15 +1,4 @@
-'use strict';
-
-/* Directives */
-
-
-angular.module('myApp.directives', []).
-  directive('appVersion', ['version', function(version) {
-    return function(scope, elm, attrs) {
-      elm.text(version);
-    };
-  }])
-
+angular.module('widget', [])
   .directive('widget', function() {
     return {
     restrict: 'E',
@@ -46,25 +35,4 @@ angular.module('myApp.directives', []).
       }
     }
     }
-  })
-  .directive('graph', function() {
-    return {
-      restrict: 'A',
-      link: function(scope, element, attrs) {
-          scope.getData(function(data){
-            console.log(data);
-            element.highcharts('StockChart', {
-              credits: {
-                enabled: false
-              },
-              series : [{
-                name : 'Stock',
-                data : data
-              }]
-            });
-          });
-      }
-    }
-  })
-
-
+  });
