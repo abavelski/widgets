@@ -54,5 +54,29 @@
     "type": "S",
     "exchDisp": "Copenhagen",
     "typeDisp": "Equity"
+  },
+  {
+    "symbol": "NZYM-B.CO",
+    "name": "NOVOZYMES -B-",
+    "exch": "CPH",
+    "type": "S",
+    "exchDisp": "Copenhagen",
+    "typeDisp": "Equity"
+  },
+  {
+    "symbol": "TDC.CO",
+    "name": "TDC",
+    "exch": "CPH",
+    "type": "S",
+    "exchDisp": "Copenhagen",
+    "typeDisp": "Equity"
+  },
+  {
+    "symbol": "VWS.CO",
+    "name": "VESTAS WIND SYSTEMS",
+    "exch": "CPH",
+    "type": "S",
+    "exchDisp": "Copenhagen",
+    "typeDisp": "Equity"
   }
 ]

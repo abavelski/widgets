@@ -7,7 +7,17 @@ var history = require("../../api/finance/stockHistory");
 module.exports = function(app) {
    
 app.get('/api/companies', function(req, res) {
-    res.json(companies);
+	var symbols = [];
+	for (var i=0; i<companies.length; i++) {
+		symbols.push(companies[i].symbol);
+	}
+
+	stockInfo.forSymbols(symbols)
+		.withFields(['name', 'exchange', 'changePercent', 'ask', 
+			'bid', 'lastTradePrice', 'symbol'])
+		.getStocks(function(data){
+			res.json(data);
+		} );
 });
 
 app.get('/api/companies/page/:page', function(req, res) {
@@ -17,7 +27,7 @@ app.get('/api/companies/page/:page', function(req, res) {
 
 app.get('/api/companies/:symbol', function(req, res){
 	stockInfo.forSymbols([req.params.symbol])
-		.withFields(['name', 'exchange', 'marketCap', 'ask', 
+		.withFields(['name', 'exchange', 'changePercent', 'ask', 
 			'bid', 'lastTradePrice','volume', 'lastTradeDate', 
 			'daysLow', 'daysHigh', 'yearLow', 'yearHigh', 'yearTargetPrice'])
 		.getStocks(function(data){

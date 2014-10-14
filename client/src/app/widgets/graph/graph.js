@@ -5,7 +5,6 @@ angular.module('widgets.graph', [])
       restrict: 'A',
       link: function(scope, element, attrs) {
           scope.getData(function(data){
-            console.log(data);
             element.highcharts('StockChart', {
               credits: {
                 enabled: false

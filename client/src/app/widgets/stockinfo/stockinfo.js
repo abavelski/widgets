@@ -30,15 +30,12 @@ angular.module('widgets.stockinfo', ['ngTable'])
         counts: [],
         getData: function($defer, params) {
             $http.get('/api/companies/'+$routeParams.symbol).success(function(data){
-              console.log(data);
               var result = [];
               for (var prop in data) {
-                console.log(prop, data[prop]);
                 if(data.hasOwnProperty(prop)){
                 result.push({name : StockInfoLabels[prop], value: data[prop]});
                 }
               }
-              console.log(result);
               $defer.resolve(result);
             });            
         }

@@ -1,5 +1,5 @@
 <div ng-controller="StockInfoCtrl">
-<widget title="Stock Info" minimizable="true">
+<widget title="Stock Info" minimizable="true" removable="true">
 	<table ng-table="tableParams" class="table">
         <tr ng-repeat="row in $data">
             <td>{{row.name}}</td>

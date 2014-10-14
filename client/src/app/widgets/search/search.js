@@ -8,7 +8,6 @@ angular.module('widgets.search', ['ui.bootstrap.typeahead', 'ui.bootstrap.tpls']
   };
 
   $scope.onSelect = function (item) {
-    console.log(item);
     $location.path('/instrument/'+item.symbol+'/details');
   };
 });
