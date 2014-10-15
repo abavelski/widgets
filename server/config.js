@@ -2,6 +2,7 @@
 
 module.exports = {
     server: {
-        staticFolder: __dirname+ '/../client/dist/'
+        staticFolder: __dirname+ '/../client/dist/',
+        secret : 'thisisasecret'
     }
 };

@@ -69,10 +69,6 @@ module.exports = function (grunt) {
                 src:['bower_components/jquery/dist/jquery.js'],
                 dest: '<%= distdir %>/jquery.js'
             },
-            bootstrap: {
-                src:['bower_components/bootstrap/js/transition.js', 'bower_components/bootstrap/js/collapse.js'],
-                dest: '<%= distdir %>/bootstrap.js'
-            },
             ngTable: {
                 src:['bower_components/ng-table/ng-table.js'],
                 dest: '<%= distdir %>/ng-table.js'

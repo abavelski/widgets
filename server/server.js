@@ -3,7 +3,9 @@ http = require('http'),
 config = require('./config'),
 fs = require('fs'),
 companies = require('./routes/companies'),
-app = express();
+users = require('./routes/users'),
+app = express(),
+expressJwt = require('express-jwt');
 
 
 
@@ -12,7 +14,10 @@ app.set('view engine', 'jade');
 app.use(express.logger())
 .use(express.static(config.server.staticFolder))
 .use(express.cookieParser())
-.use(express.bodyParser());
+.use(express.bodyParser())
+.use('/auth', expressJwt({secret: 'blablabla'}))
+.use(express.json())
+.use(express.urlencoded());
 
 var server = http.createServer(app);
 server.listen(8000);
@@ -26,6 +31,8 @@ app.get('/', function(req, res) {
   });
 });
 
-
+users(app);
 companies(app);
+
+
 

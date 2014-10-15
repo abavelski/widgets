@@ -1,4 +1,4 @@
-angular.module('app', [ 'templates.app', 'templates.common', 'layouts', 'widget', 'widgets'])
+angular.module('app', [ 'templates.app', 'templates.common', 'security','layouts', 'widget', 'widgets'])
 
 .controller('AppCtrl', ['$scope', function($scope) {}])
 

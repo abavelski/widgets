@@ -2,9 +2,11 @@
   "name": "smoke-server",
   "version": "0.0.1",
   "dependencies": {
+    "csv": "~0.3.7",
     "express": "3.3.x",
+    "express-jwt": "^0.4.0",
     "jade": "^1.7.0",
-    "csv": "~0.3.7"
+    "jsonwebtoken": "^1.1.2"
   },
   "engines": {
     "node": "0.10.x",
