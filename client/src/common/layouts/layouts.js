@@ -9,29 +9,23 @@ angular.module('layouts', ['ngRoute'])
     }
 })
 
-.factory('AppConfig', function() {
-  return window.myAppConfig;
-})
-
-.config(['$provide', '$routeProvider', function($provide, $routeProvider) {
+.config( function($routeProvider) {
   var routes = {
     twelveSixSix : 'layouts/twelveSixSix.tpl.html',
     twelveZeroZero : 'layouts/twelveZeroZero.tpl.html',
     zeroSixSix : 'layouts/zeroSixSix.tpl.html'
   }
-  $provide.decorator('AppConfig', function ($delegate) {
-    var myConfig = $delegate;
+ 
+    var myConfig = window.myAppConfig;
       for (var i=0; i<myConfig.views.length; i++) {
       $routeProvider.when(myConfig.views[i].path, {
                             templateUrl: routes[myConfig.views[i].type], 
                             controller: 'ViewCtrl' });
                             }
       $routeProvider.otherwise({redirectTo: myConfig.views[0].path});
-    return $delegate;
-  });
-}])
+})
 
-.controller('ViewCtrl', function($scope, WidgetFactory, $location, $route, AppConfig) {
+.controller('ViewCtrl', function($scope, WidgetFactory, $location, $route, $window) {
     var setupView = function(widgets) {
       if (widgets.north) {
         $scope.northItems = [];
@@ -54,10 +48,10 @@ angular.module('layouts', ['ngRoute'])
         };
       }
     };
-
-    for (var i=0; i<AppConfig.views.length; i++) {
-      if (AppConfig.views[i].path === $route.current.$$route.originalPath) {
-        setupView(AppConfig.views[i].widgets)
+    var myViews = $window.myAppConfig.views;
+    for (var i=0; i<myViews.length; i++) {
+      if (myViews[i].path === $route.current.$$route.originalPath) {
+        setupView(myViews[i].widgets)
       }
     }
   });

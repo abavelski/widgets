@@ -84,6 +84,7 @@ module.exports = function (grunt) {
                     '<%= distdir %>/<%= pkg.name %>.css':
                         ['bower_components/bootswatch/cosmo/bootstrap.css', 
                         'bower_components/bootstrap/dist/css/bootstrap-theme.min.css', 
+                        'bower_components/ng-table/ng-table.css',
                         'src/css/app.css'] },
                         options: {
                             compile: true
