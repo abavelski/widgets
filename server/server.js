@@ -20,7 +20,7 @@ app.use(express.logger())
 .use(express.urlencoded());
 
 var server = http.createServer(app);
-server.listen(8000);
+server.listen(process.env.PORT || 8000);
 console.log('Express server started.');
 
 var myConfig = JSON.parse(fs.readFileSync('./config.json'));
