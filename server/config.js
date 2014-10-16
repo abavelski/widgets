@@ -1,8 +1,7 @@
 "use strict";
 
 module.exports = {
-    server: {
-        staticFolder: __dirname+ '/../client/dist/',
-        secret : 'thisisasecret'
-    }
+    staticFolder: __dirname+ '/../client/dist/',
+    secret : 'thisisasecret',
+    mongoUrl : 'mongodb://192.168.1.192/mongoose'
 };

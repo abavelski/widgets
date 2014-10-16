@@ -1,30 +1,51 @@
-var jwt = require('jsonwebtoken');
+var jwt = require('jsonwebtoken'),
+  config = require('../../config'),
+  errors = require('../../errors'),
+  User = require('../../db/models/user');
 
-module.exports = function(app) {
+module.exports = function(router) {
 
-
-app.post('/api/login', function (req, res) {
-  //TODO validate req.body.username and req.body.password
-  //if is invalid, return 401
-  if (!(req.body.username === 'bla' && req.body.password === 'bla')) {
-    res.send(401, 'Wrong user or password');
+//login
+router.route('/api/login').post(function (req, res) {
+  if (!req.body.username || !req.body.password) {
+    res.json(401, {error: errors.loginFailed });
     return;
   }
 
-  var user = {
-    name: 'Bla',
-    id: 123
-  };
+  User.findOne({'login': req.body.username}).exec().then(function(user){
+      if (user && user.password === req.body.password) {
+        var token = jwt.sign(user, config.secret, { expiresInMinutes: 60*5 });
+        res.json({ token: token, user: {login : user.login} });
+      } else {
+        res.json(401,{error: errors.loginFailed });
+      }      
+  },  function(err) {
+      res.json(401,{error: errors.loginFailed });
+  });
+});
 
-  // We are sending the profile inside the token
-  var token = jwt.sign(user, 'blablabla', { expiresInMinutes: 60*5 });
-  console.log('token requested');
-  res.json({ token: token });
+//register new user
+router.route('/api/register').post(function(req, res){
+  console.log(req.body);
+  var user = new User({
+    login : req.body.email,
+    password : req.body.password
+  });
+  user.save(function(err){
+    if (err) {
+      res.json(500, {error: errors.saveUserFailed});
+    } else {      
+      var newUser = { login: req.body.email, password: req.body.password };
+      var token = jwt.sign(newUser, config.secret, { expiresInMinutes: 60*5 });
+      res.json({ token: token, user: newUser });
+    }
+  });
+
 });
 
 
-app.get('/auth/bla', function (req, res) {
-  console.log('user ' + req.user.name + ' is calling /api/restricted');
+router.route('/auth/bla').get( function (req, res) {
+  console.log('user ' + req.user.login + ' is calling /api/restricted');
   res.json({
     name: 'foo'
   });

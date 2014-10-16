@@ -1,38 +1,34 @@
 var express = require('express'),
-http = require('http'),
 config = require('./config'),
-fs = require('fs'),
+app = express(),
+morgan  = require('morgan'),
+bodyParser = require('body-parser'),
+expressJwt = require('express-jwt'),
+mongoose = require('mongoose'),
 companies = require('./routes/companies'),
 users = require('./routes/users'),
-app = express(),
-expressJwt = require('express-jwt');
+main = require('./routes/main');
 
-
-
-app.set('views', __dirname + '/views')
+app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.use(express.logger())
-.use(express.static(config.server.staticFolder))
-.use(express.cookieParser())
-.use(express.bodyParser())
-.use('/auth', expressJwt({secret: 'blablabla'}))
-.use(express.json())
-.use(express.urlencoded());
+app.use(morgan('short'))
+  .use(express.static(config.staticFolder))
+  .use(bodyParser.json())
+  .use(bodyParser.urlencoded())
+  .use('/auth', expressJwt({secret: config.secret}))
 
-var server = http.createServer(app);
-server.listen(process.env.PORT || 8000);
-console.log('Express server started.');
+mongoose.connect(config.mongoUrl);
+mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
+mongoose.connection.once('open', function() {
+  
+  var router = express.Router(); 
 
-var myConfig = JSON.parse(fs.readFileSync('./config.json'));
+  main(router);
+  users(router);
+  companies(router);
 
-app.get('/', function(req, res) {
-  res.render('index', {
-    config : myConfig
-  });
+  app.use('/', router);
+  app.listen(process.env.PORT || 8000);
+  console.log('Server started...');
 });
-
-users(app);
-companies(app);
-
-
 

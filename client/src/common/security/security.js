@@ -25,33 +25,34 @@ angular.module('security.service', ['security.login','ui.bootstrap'])
       $http.post('/api/login', {username: username, password: password})
           .success(function(data){
               console.log(data);
+              service.currentUser = data.user;
               $window.sessionStorage.token = data.token;
+              $window.sessionStorage.currentUser = JSON.stringify(data.user);
               if ( service.isAuthenticated() ) {
                   modalInstance.close(true);
               }
           })
           .error(function(){
-            delete $window.sessionStorage.token
+            delete $window.sessionStorage.token;
+            delete $window.sessionStorage.currentUser;
+            service.currentUser = null;
             callback('Invalid credentials');
           });
     },
-
     logout: function(redirectTo) {
-      console.log($window.sessionStorage.token);
-      $http.get('/auth/bla').success(function(data){
-        console.log(data);
-        delete $window.sessionStorage.token
-      });
-      
+      delete $window.sessionStorage.token;
+      delete $window.sessionStorage.currentUser;
+      service.currentUser = null;
       redirect(redirectTo);      
     },
 
     isAuthenticated: function(){
       return !!$window.sessionStorage.token;
     },
-
-    token : $window.sessionStorage.token
-
+    updateCurrentUser : function() {
+      service.currentUser =  $window.sessionStorage.currentUser ? $window.sessionStorage.currentUser: null;
+    },
+    currentUser : null
   };
 
   return service;

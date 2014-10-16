@@ -11,9 +11,10 @@ angular.module('security.login.toolbar', [])
       $scope.login = security.showLogin;
       $scope.logout = security.logout;
       $scope.$watch(function() {
-        return security.token;
-      }, function(token) {
-        $scope.currentUser = token?token.user:null;
+        return security.currentUser;
+      }, function(currentUser) {
+        console.log('changed'+currentUser);
+        $scope.currentUser = currentUser;
       });
     }
   };

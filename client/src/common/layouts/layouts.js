@@ -5,7 +5,9 @@ angular.module('layouts', ['ngRoute'])
       search : 'widgets/search/search.tpl.html',
       instrumentList : 'widgets/instrumentlist/instrumentList.tpl.html',
       graph : 'widgets/graph/graph.tpl.html',
-      stockInfo : 'widgets/stockinfo/stockInfo.tpl.html'
+      stockInfo : 'widgets/stockinfo/stockInfo.tpl.html',
+      register : 'widgets/register/registerUser.tpl.html',
+      registerOk : 'widgets/register/registerOk.tpl.html'
     }
 })
 

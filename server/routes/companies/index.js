@@ -4,9 +4,9 @@ var companies = JSON.parse(fs.readFileSync(__dirname+'/list.json'));
 var lookup = require("../../api/finance/lookup");
 var history = require("../../api/finance/stockHistory");
 
-module.exports = function(app) {
+module.exports = function(router) {
    
-app.get('/api/companies', function(req, res) {
+router.route('/api/companies').get(function(req, res) {
 	var symbols = [];
 	for (var i=0; i<companies.length; i++) {
 		symbols.push(companies[i].symbol);
@@ -20,12 +20,12 @@ app.get('/api/companies', function(req, res) {
 		} );
 });
 
-app.get('/api/companies/page/:page', function(req, res) {
+router.route('/api/companies/page/:page').get(function(req, res) {
 	var page = req.params.page || 0;
 	res.json(companies.slice((page-1)*10, (page-1)*10+10));
 });
 
-app.get('/api/companies/:symbol', function(req, res){
+router.route('/api/companies/:symbol').get(function(req, res){
 	stockInfo.forSymbols([req.params.symbol])
 		.withFields(['name', 'exchange', 'changePercent', 'ask', 
 			'bid', 'lastTradePrice','volume', 'lastTradeDate', 
@@ -35,13 +35,13 @@ app.get('/api/companies/:symbol', function(req, res){
 		} );
 });
 
-app.get('/api/companies/lookup/:query', function(req, res){
+router.route('/api/companies/lookup/:query').get(function(req, res){
 	lookup(req.params.query, function(data){
 		res.json(data);
 	});
 });
 
-app.get('/api/companies/history/:symbol', function(req, res) {
+router.route('/api/companies/history/:symbol').get(function(req, res) {
 	var startDate = new Date();
 	startDate.setFullYear(startDate.getFullYear()-1);
 

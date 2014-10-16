@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "dependencies": {
     "csv": "~0.3.7",
-    "express": "3.3.x",
+    "express": "~4.2.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
     "express-jwt": "^0.4.0",
     "jade": "^1.7.0",
-    "jsonwebtoken": "^1.1.2"
+    "jsonwebtoken": "^1.1.2",
+    "mongoose": "^3.8.12",
+    "static-favicon": "~1.0.0"
   },
   "engines": {
     "node": "0.10.x",
