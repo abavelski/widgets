@@ -1,22 +1,21 @@
 angular.module('security.login.toolbar', [])
 
-.directive('loginToolbar', ['security', function(security) {
+.directive('loginToolbar', function(security) {
   var directive = {
     templateUrl: 'security/login/toolbar.tpl.html',
     restrict: 'E',
     replace: true,
-    scope: true,
-    link: function($scope, $element, $attrs, $controller) {
+    scope: {},
+    link: function($scope) {
       $scope.isAuthenticated = security.isAuthenticated;
       $scope.login = security.showLogin;
       $scope.logout = security.logout;
       $scope.$watch(function() {
         return security.currentUser;
       }, function(currentUser) {
-        console.log('changed'+currentUser);
         $scope.currentUser = currentUser;
       });
     }
   };
   return directive;
-}]);
+});

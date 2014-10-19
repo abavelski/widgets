@@ -7,7 +7,9 @@ angular.module('layouts', ['ngRoute'])
       graph : 'widgets/graph/graph.tpl.html',
       stockInfo : 'widgets/stockinfo/stockInfo.tpl.html',
       register : 'widgets/register/registerUser.tpl.html',
-      registerOk : 'widgets/register/registerOk.tpl.html'
+      registerOk : 'widgets/register/registerOk.tpl.html',
+      custodies : 'widgets/custodies/custodies.tpl.html',
+      cashAccounts : 'widgets/cashaccounts/cashaccounts.tpl.html'
     }
 })
 

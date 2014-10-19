@@ -1,6 +1,6 @@
-angular.module('security.service', ['security.login','ui.bootstrap'])
+angular.module('security.service', ['security.login','ui.bootstrap', 'storage'])
 
-.factory('security', function($http, $q, $location, $modal, $window) {
+.factory('security', function($http, $q, $location, $modal, storage) {
 
   function redirect(url) {
     url = url || '/';
@@ -24,33 +24,30 @@ angular.module('security.service', ['security.login','ui.bootstrap'])
     login: function(username, password, callback) {
       $http.post('/api/login', {username: username, password: password})
           .success(function(data){
-              console.log(data);
-              service.currentUser = data.user;
-              $window.sessionStorage.token = data.token;
-              $window.sessionStorage.currentUser = JSON.stringify(data.user);
+              service.currentUser = data.user.login;
+              storage.saveUser(data.user);
+              storage.saveToken(data.token);
               if ( service.isAuthenticated() ) {
                   modalInstance.close(true);
               }
           })
           .error(function(){
-            delete $window.sessionStorage.token;
-            delete $window.sessionStorage.currentUser;
+            storage.clearStorage();
             service.currentUser = null;
             callback('Invalid credentials');
           });
     },
     logout: function(redirectTo) {
-      delete $window.sessionStorage.token;
-      delete $window.sessionStorage.currentUser;
+      storage.clearStorage();
       service.currentUser = null;
       redirect(redirectTo);      
     },
 
     isAuthenticated: function(){
-      return !!$window.sessionStorage.token;
+      return !!storage.getToken();
     },
     updateCurrentUser : function() {
-      service.currentUser =  $window.sessionStorage.currentUser ? $window.sessionStorage.currentUser: null;
+      service.currentUser =  storage.getUserName();
     },
     currentUser : null
   };
@@ -58,12 +55,12 @@ angular.module('security.service', ['security.login','ui.bootstrap'])
   return service;
 })
 
-.factory('authInterceptor', function ($rootScope, $q, $window) {
+.factory('authInterceptor', function ($rootScope, $q, storage) {
   return {
     request: function (config) {
       config.headers = config.headers || {};
-      if ($window.sessionStorage.token) {
-        config.headers.Authorization = 'Bearer ' + $window.sessionStorage.token;
+      if (storage.getToken()) {
+        config.headers.Authorization = 'Bearer ' + storage.getToken();
       }
       return config;
     },

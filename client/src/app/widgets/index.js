@@ -3,4 +3,6 @@ angular.module('widgets', [
   'widgets.instrumentlist',
   'widgets.search',
   'widgets.stockinfo',
-  'widgets.register']);
+  'widgets.register',
+  'widgets.custodies',
+  'widgets.cashaccounts']);

@@ -1,6 +1,4 @@
-var jwt = require('jsonwebtoken'),
-  config = require('../../config'),
-  errors = require('../../errors'),
+var errors = require('../../errors'),
   User = require('../../db/models/user');
 
 module.exports = function(router) {
@@ -13,9 +11,8 @@ router.route('/api/login').post(function (req, res) {
   }
 
   User.findOne({'login': req.body.username}).exec().then(function(user){
-      if (user && user.password === req.body.password) {
-        var token = jwt.sign(user, config.secret, { expiresInMinutes: 60*5 });
-        res.json({ token: token, user: {login : user.login} });
+      if (user && user.checkPassword(req.body.password)) {
+        res.json({ token: user.getToken(), user: user.prepareForTransfer() });
       } else {
         res.json(401,{error: errors.loginFailed });
       }      
@@ -26,7 +23,6 @@ router.route('/api/login').post(function (req, res) {
 
 //register new user
 router.route('/api/register').post(function(req, res){
-  console.log(req.body);
   var user = new User({
     login : req.body.email,
     password : req.body.password
@@ -35,20 +31,45 @@ router.route('/api/register').post(function(req, res){
     if (err) {
       res.json(500, {error: errors.saveUserFailed});
     } else {      
-      var newUser = { login: req.body.email, password: req.body.password };
-      var token = jwt.sign(newUser, config.secret, { expiresInMinutes: 60*5 });
-      res.json({ token: token, user: newUser });
+      res.json(201);
     }
   });
+});
 
+//add new custody
+router.route('/auth/custody').post(function(req, res){
+  if (req.body.name) {
+    User.addCustody(req.user.id, {name : req.body.name }, function(err, custody){
+      if (err) {
+        res.json(500, {error : errors.saveCustodyFailed});
+      } else {
+        res.json(201, custody);
+      }
+    });
+  } else {
+    res.json(503, {error : errors.saveCustodyFailed});
+  }
+});
+
+//add new cash account
+router.route('/auth/cash-account').post(function(req, res){
+  if (!req.body.name || !req.body.currency) {
+    res.json(503, {error : errors.saveCashAccountFailed});
+    return;
+  } 
+  User.addCashAccount(req.user.id, { 
+    name : req.body.name, 
+    currency : req.body.currency, 
+    balance : 0 
+  }, function(err, cashAccount){
+      if (err) {
+        res.json(500, {error : errors.saveCashAccountFailed});
+      } else {
+        res.json(201, cashAccount);
+      }
+    });
 });
 
 
-router.route('/auth/bla').get( function (req, res) {
-  console.log('user ' + req.user.login + ' is calling /api/restricted');
-  res.json({
-    name: 'foo'
-  });
-});
 
 };

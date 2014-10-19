@@ -1,6 +1,6 @@
 <ul class="nav navbar-nav navbar-right">
   <li ng-show="isAuthenticated()">
-          <a href="#/user/settings">{{currentUser.login}}</a>
+    <p class="navbar-text">{{currentUser}}</p>
   </li>
     <li ng-show="isAuthenticated()">
           <a href ng-click="logout()">Log out</a>

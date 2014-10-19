@@ -31,6 +31,14 @@ module.exports = {
     "widgets" : {
       "north" : ["registerOk"]
     }
+  },
+  {
+    "path" : "/home",
+    "type" : "zeroSixSix",
+    "widgets" : {
+      "east" : ["custodies"],
+      "west" : ["cashAccounts"]
+    }
   }
   ]
 };
