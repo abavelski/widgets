@@ -6,7 +6,7 @@
         </div>
 
         <div style="padding-top:30px; margin-left: 5px; margin-right: 5px" class="panel-body" >
-            <div class="alert alert-danger col-sm-12" ng-show="authError">
+            <div id="auth-error" class="alert alert-danger col-sm-12" ng-show="authError">
                 {{authError}}
             </div>
             <form class="form-horizontal" role="form">
@@ -22,7 +22,7 @@
 
                 <div style="margin-top:10px" class="form-group">
                     <div class="col-sm-12 controls">
-                        <button class="btn btn-success" ng-click="login()">Login</button>
+                        <button id="login-btn" class="btn btn-success" ng-click="login()">Login</button>
                         <button class="btn btn-warning" ng-click="cancelLogin()">Cancel</button>
 
                     </div>
