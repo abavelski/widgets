@@ -62,7 +62,8 @@ module.exports = function (grunt) {
             },
             angularUi: {
                 src:['bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
-                    'bower_components/angular-bootstrap/ui-bootstrap.js'],
+                    'bower_components/angular-bootstrap/ui-bootstrap.js',
+                    'bower_components/angular-wizard/dist/angular-wizard.js'],
                 dest: '<%= distdir %>/angular-ui.js'
             },
             jquery: {
@@ -72,6 +73,10 @@ module.exports = function (grunt) {
             ngTable: {
                 src:['bower_components/ng-table/ng-table.js'],
                 dest: '<%= distdir %>/ng-table.js'
+            },
+            lodash : {
+                src:['bower_components/lodash/dist/lodash.js'],
+                dest: '<%= distdir %>/lodash.js'
             }
         },
         recess: {

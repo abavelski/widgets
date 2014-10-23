@@ -5,4 +5,5 @@ angular.module('widgets', [
   'widgets.stockinfo',
   'widgets.register',
   'widgets.custodies',
-  'widgets.cashaccounts']);
+  'widgets.cashaccounts',
+  'widgets.tradeflow']);

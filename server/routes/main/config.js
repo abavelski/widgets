@@ -39,6 +39,13 @@ module.exports = {
       "east" : ["custodies"],
       "west" : ["cashAccounts"]
     }
+  },
+  {
+    "path" : "/tradeflow",
+    "type" : "twelveZeroZero",
+    "widgets" : {
+      "north" : ["tradeFlow"]
+    }
   }
   ]
 };
