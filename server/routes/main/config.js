@@ -41,10 +41,11 @@ module.exports = {
     }
   },
   {
-    "path" : "/tradeflow",
-    "type" : "twelveZeroZero",
+    "path" : "/tradeflow/:action/instrument/:symbol",
+    "type" : "zeroSixSix",
     "widgets" : {
-      "north" : ["tradeFlow"]
+      "east" : ["tradeFlow"],
+      "west" : ["stockInfo"]
     }
   }
   ]

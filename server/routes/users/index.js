@@ -1,5 +1,8 @@
 var errors = require('../../errors'),
-  User = require('../../db/models/user');
+  User = require('../../db/models/user'),
+  Transaction = require('../../db/models/transaction'),
+  config = require('../../config'),
+  stockInfo = require('../../api/finance/stockInfo');
 
 module.exports = function(router) {
 
@@ -25,7 +28,9 @@ router.route('/api/login').post(function (req, res) {
 router.route('/api/register').post(function(req, res){
   var user = new User({
     login : req.body.email,
-    password : req.body.password
+    password : req.body.password,
+    custodyAccounts : [config.defaultCustody],
+    cashAccounts : [config.defaultCashAccount]
   });
   user.save(function(err){
     if (err) {
@@ -68,6 +73,82 @@ router.route('/auth/cash-account').post(function(req, res){
         res.json(201, cashAccount);
       }
     });
+});
+
+
+router.route('/auth/order').post(function(req, res){
+  if (!req.user.id) {
+    res.status(401).end();
+    return;
+  }
+  var order = req.body;
+    
+  User.findById(req.user.id).exec().then(function(user){
+    var cashAccount = user.getCashAccountById(order.cashAccountId);
+    var custodyAccount = user.getCustodyAccountById(order.custodyAccountId);
+    
+    var updateUser = function(transaction) {
+        if (transaction.type=='buy') {
+          cashAccount.balance -= transaction.amount*transaction.price - transaction.commission;
+        } else {
+          cashAccount.balance += transaction.amount*transaction.price - transaction.commission;
+        }
+
+        var holding = custodyAccount.getHoldingBySymbol(transaction.symbol);
+        if (holding && transaction.type == 'buy') {
+          holding.amount += transaction.amount;
+        } else if (holding && transactio.type == 'sell') {
+          holding.amount -=transaction.amount;
+        } else {
+          holding = {
+            amount : transaction.amount;
+            symbol : transaction.symbol;
+            avgPurchasePrice : transaction.price;
+          }
+          custodyAccount.holdings.push(holding);
+        }
+        user.save(function(err){
+          if (err) {
+            res.send(500).end();
+            return;
+          } else {
+            res.send(201).end();
+            return;
+          }
+        });
+    };
+
+    var createOrder = function(stocks) {
+      var transaction = new Transaction({
+        custodyId : custodyAccount._id,
+        cashAccountId : cashAccount._id,
+        symbol : order.symbol,
+        type : order.type,
+        amount : order.amount,
+        price : type=='buy'?stocks[0].ask*order.amount:stocks[0].bid*amount,
+        commission : 29,
+        date : new Date()
+      });
+      transaction.save(function(err){
+        if (err) {
+          res.send(500).end();
+          return;
+        }
+        updateUser(transaction);
+      });
+    };
+
+    stockInfo.forSymbols([order.symbol]).withFields(['ask', 'bid'])
+        .getStocks(createOrder);
+  
+  },
+  function(err) {
+    res.status(401).end();
+    return;
+  });
+
+
+
 });
 
 
