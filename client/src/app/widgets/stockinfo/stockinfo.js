@@ -23,6 +23,7 @@ angular.module('widgets.stockinfo', ['ngTable'])
 })
 
 .controller('StockInfoCtrl', function($scope, $http, ngTableParams, $routeParams, StockInfoLabels){
+  $scope.symbol = $routeParams.symbol;
   $scope.tableParams = new ngTableParams({
         count: 12           // count per page
     }, {
@@ -30,6 +31,7 @@ angular.module('widgets.stockinfo', ['ngTable'])
         counts: [],
         getData: function($defer, params) {
             $http.get('/api/companies/'+$routeParams.symbol).success(function(data){
+
               var result = [];
               for (var prop in data) {
                 if(data.hasOwnProperty(prop)){

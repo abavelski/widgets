@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+Schema = mongoose.Schema;
 
 
 var transactionSchema = mongoose.Schema({
@@ -9,7 +10,8 @@ var transactionSchema = mongoose.Schema({
     amount : Number,
     price : Number,
     commission : Number,
-    date : Date
+    date : Date,
+    action : String
   });
 
 

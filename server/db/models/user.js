@@ -2,7 +2,7 @@ var mongoose     = require('mongoose'),
 	config = require('../../config'),
   	jwt = require('jsonwebtoken');
 
-var holdingSchema = mongooseSchema({
+var holdingSchema = mongoose.Schema({
 	symbol : String,
 	amount : Number,
 	avgPurchasePrice : Number 
@@ -41,31 +41,25 @@ userSchema.methods.getToken = function() {
 };
 
 userSchema.methods.getCashAccountById = function(id) {
+	var acc = null;
 	this.cashAccounts.forEach(function(cashAccount){
-		if (cashAccount._id==id) {
-			return cashAccount;
+		if (cashAccount.id==id) {
+			acc = cashAccount;
 		}
 	});
-	return null;
+	return acc;
 };
 
 userSchema.methods.getCustodyAccountById = function(id) {
+	var acc = null;
 	this.custodyAccounts.forEach(function(custodyAccount){
-		if (custodyAccount._id==id) {
-			return custodyAccount;
+		if (custodyAccount.id==id) {
+			acc = custodyAccount;
 		}
 	});
-	return null;
+	return acc;
 };
 
-custodySchema.methods.getHoldingBySymbol = function(symbol) {
-	this.holdings.forEach(function(holding){
-		if(holding.symbol==symbol) {
-			return holding;
-		}
-	});
-	return null;
-};
 
 userSchema.statics.addCustody = function(userId, custody, callback){
 	this.findById(userId, function (err, user) {

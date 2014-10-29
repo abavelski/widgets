@@ -10,7 +10,8 @@ angular.module('layouts', ['ngRoute'])
       registerOk : 'widgets/register/registerOk.tpl.html',
       custodies : 'widgets/custodies/custodies.tpl.html',
       cashAccounts : 'widgets/cashaccounts/cashaccounts.tpl.html',
-      tradeFlow : 'widgets/tradeflow/tradeflow.tpl.html'
+      tradeFlow : 'widgets/tradeflow/tradeflow.tpl.html',
+      assetOverview : 'widgets/assetoverview/assetoverview.tpl.html'
     }
 })
 

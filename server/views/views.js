@@ -1,5 +1,3 @@
-"use strict";
-
 module.exports = {
   "views": [
   {
@@ -46,6 +44,14 @@ module.exports = {
     "widgets" : {
       "east" : ["tradeFlow"],
       "west" : ["stockInfo"]
+    }
+  },
+    {
+    "path" : "/assetoverview/:id",
+    "type" : "zeroSixSix",
+    "widgets" : {
+      "east" : ["custodies"],
+      "west" : ["assetOverview"]
     }
   }
   ]

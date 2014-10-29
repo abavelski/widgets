@@ -1,5 +1,6 @@
 <div ng-controller="StockInfoCtrl">
 <widget title="Stock Info" minimizable="true" removable="true">
+	<a class="btn btn-primary" href="#/tradeflow/buy/instrument/{{symbol}}">BUY</a>
 	<table ng-table="tableParams" class="table">
         <tr ng-repeat="row in $data">
             <td>{{row.name}}</td>

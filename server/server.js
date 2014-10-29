@@ -7,7 +7,9 @@ expressJwt = require('express-jwt'),
 mongoose = require('mongoose'),
 companies = require('./routes/companies'),
 users = require('./routes/users'),
-main = require('./routes/main');
+main = require('./routes/main'),
+orders = require('./routes/orders'),
+custodies = require('./routes/custodies');
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
@@ -26,6 +28,8 @@ mongoose.connection.once('open', function() {
   main(router);
   users(router);
   companies(router);
+  orders(router);
+  custodies(router);
 
   app.use('/', router);
   app.listen(process.env.PORT || 8000);

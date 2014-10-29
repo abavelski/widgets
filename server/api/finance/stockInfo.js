@@ -1,5 +1,6 @@
 var http = require('http');
 var csv = require('csv');
+var Promise = require('promise');
 
 var columns = {
     ask : "a",
@@ -28,9 +29,6 @@ var StockInfo = function() {
     var self = this;
     var mySymbols = ['AAPL', 'GOOG', 'YHOO'];
     var myFields = ['symbol', 'name', 'exchange'];
-    var myCallback = function(data) {
-        console.log(data);
-    };
 
     this.forSymbols = function(symbols) {
         mySymbols = symbols;
@@ -42,20 +40,21 @@ var StockInfo = function() {
         return self;
     };
 
-    this.getStocks = function(callback) {
-        var requestURL =  "http://download.finance.yahoo.com/d/quotes.csv?s="+getStockList()+"&f="+getColumns(myFields);
-        if (callback) {
-            myCallback = callback;
-        }
-        http.get(requestURL, function(res) {
-            if ( res.statusCode!=200) throw new Error("Error: "+res.statusCode);
-            csv().from.stream(res).to.array(function(stocksData) {
-                transformResponse(stocksData);
+    this.getStocks = function() {
+        return new Promise(function(resolve, reject){
+            var requestURL =  "http://download.finance.yahoo.com/d/quotes.csv?s="+getStockList()+"&f="+getColumns(myFields);
+
+            http.get(requestURL, function(res) {
+                if ( res.statusCode!=200) throw new Error("Error: "+res.statusCode);
+                csv().from.stream(res).to.array(function(stocksData) {
+                    resolve(transformData(stocksData));
+                });
+            }).on('error', function(err) {
+                reject(err);
             });
-        }).on('error', function(e) {
-                throw e;
-            });
+        });
     };
+
 
     var getColumns = function(arr) {
         var str = "";
@@ -64,8 +63,7 @@ var StockInfo = function() {
         }
         return str;
     };
-
-    var transformResponse = function(arr) {
+    var transformData = function(arr) {
         var res = [];
         for (var i=0; i<arr.length;i++) {
             var obj = {}
@@ -74,7 +72,7 @@ var StockInfo = function() {
             }
             res.push(obj);
         }
-        myCallback(res);
+        return res;
     };
 
     var getStockList = function() {

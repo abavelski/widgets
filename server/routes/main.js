@@ -1,4 +1,4 @@
-var  myConfig = require('./config');
+var  myConfig = require('../views/views');
 
 module.exports = function(router) {
   

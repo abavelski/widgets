@@ -2,14 +2,14 @@
   "name": "smoke-server",
   "version": "0.0.1",
   "dependencies": {
+    "body-parser": "~1.0.0",
     "csv": "~0.3.7",
     "express": "~4.2.0",
-    "morgan": "~1.0.0",
-    "body-parser": "~1.0.0",
     "express-jwt": "^0.4.0",
     "jade": "^1.7.0",
     "jsonwebtoken": "^1.1.2",
     "mongoose": "^3.8.12",
+    "morgan": "~1.0.0",
     "static-favicon": "~1.0.0"
   },
   "engines": {
