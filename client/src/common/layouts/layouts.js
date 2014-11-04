@@ -11,7 +11,8 @@ angular.module('layouts', ['ngRoute'])
       custodies : 'widgets/custodies/custodies.tpl.html',
       cashAccounts : 'widgets/cashaccounts/cashaccounts.tpl.html',
       tradeFlow : 'widgets/tradeflow/tradeflow.tpl.html',
-      assetOverview : 'widgets/assetoverview/assetoverview.tpl.html'
+      assetOverview : 'widgets/assetoverview/assetoverview.tpl.html',
+      custodySelector : 'widgets/custodyselector/custodyselector.tpl.html'
     }
 })
 

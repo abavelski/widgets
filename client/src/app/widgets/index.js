@@ -7,4 +7,5 @@ angular.module('widgets', [
   'widgets.custodies',
   'widgets.cashaccounts',
   'widgets.assetoverview',
-  'widgets.tradeflow']);
+  'widgets.tradeflow',
+  'widgets.custodyselector']);

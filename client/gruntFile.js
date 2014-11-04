@@ -74,9 +74,10 @@ module.exports = function (grunt) {
                 src:['bower_components/ng-table/ng-table.js'],
                 dest: '<%= distdir %>/ng-table.js'
             },
-            lodash : {
-                src:['bower_components/lodash/dist/lodash.js'],
-                dest: '<%= distdir %>/lodash.js'
+            utils : {
+                src:['bower_components/lodash/dist/lodash.js',
+                    'bower_components/add-to-homescreen/src/addtohomescreen.min.js'],
+                dest: '<%= distdir %>/utils.js'
             }
         },
         recess: {
@@ -86,6 +87,7 @@ module.exports = function (grunt) {
                         ['bower_components/bootswatch/cosmo/bootstrap.css', 
                         'bower_components/bootstrap/dist/css/bootstrap-theme.min.css', 
                         'bower_components/ng-table/ng-table.css',
+                        'bower_components/add-to-homescreen/style/addtohomescreen.css',
                         'src/css/app.css'] },
                         options: {
                             compile: true

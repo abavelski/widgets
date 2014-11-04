@@ -48,10 +48,9 @@ module.exports = {
   },
     {
     "path" : "/assetoverview/:id",
-    "type" : "zeroSixSix",
+    "type" : "twelveZeroZero",
     "widgets" : {
-      "east" : ["custodies"],
-      "west" : ["assetOverview"]
+      "north" : ["custodySelector", "assetOverview"]
     }
   }
   ]

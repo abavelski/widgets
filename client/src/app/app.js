@@ -7,6 +7,7 @@ angular.module('app', [ 'templates.app', 'templates.common', 'security','layouts
   		$scope.isAuthenticated = security.isAuthenticated;
   		$location.path('/instruments');
 })
-.run(function(security){
+.run(function(security, $window){
+	$window.addToHomescreen();
 	security.updateCurrentUser();
 })
