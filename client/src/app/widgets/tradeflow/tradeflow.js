@@ -7,7 +7,7 @@ angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
     }); 
     $scope.nextBtn = 'Next';
     $scope.currentStep = '';
-	$scope.orderTypes = ['Instant', 'Limit', 'Trigger'];
+	$scope.orderTypes = ['Instant'];
 	$scope.custodies = storage.getCustodies();
 	$scope.cashAccounts = storage.getCashAccounts();
 	$scope.order = {
@@ -18,9 +18,19 @@ angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
 		cashAccount : $scope.cashAccounts[0],
 		amount : 1
 	};
+	var updateBuyTotal = function() {
+		$scope.total = $scope.order.amount * $scope.instrument.ask + $scope.commission;
+	};
+	var updateSellTotal = function() {
+		$scope.total = $scope.order.amount * $scope.instrument.bid + $scope.commission;
+	};
 	var updateTotal = function() {
-		$scope.total = $scope.order.amount*$scope.instrument.ask + $scope.commission
-	}
+		if ($scope.order.orderType=='buy') {
+			updateBuyTotal();
+		} else {
+			updateSellTotal();
+		}
+	};
 	$scope.next = function() {
 		if ($scope.currentStep=='select') {
 			updateTotal();
@@ -31,6 +41,7 @@ angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
 			$http.post('/auth/order', $scope.order)
 			 .success(function(res) {
                 console.log(res);
+                storage.saveUser(res);
                 WizardHandler.wizard().next();
             })
             .error(function(err) {
