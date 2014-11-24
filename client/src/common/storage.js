@@ -2,6 +2,12 @@ angular.module('storage', [])
 
 .factory('storage', function($window) {
     var storage = {
+        updateSymbols : function(instruments) {
+            $window.sessionStorage.instruments = JSON.stringify(instruments);
+        },
+        getInstruments : function() {
+            return JSON.parse($window.sessionStorage.instruments);
+        },
     	saveUser : function(user) {
     		$window.sessionStorage.user = JSON.stringify(user);
           },

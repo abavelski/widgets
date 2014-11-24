@@ -2,8 +2,9 @@
 	<div ng-controller="CustodiesCtrl">
 		<div ng-show="error" class="alert alert-danger" role="alert">{{error}}</div>
 		<table ng-table="tableParams" class="table">
-			<tr ng-repeat="custody in custodies">
+			<tr ng-repeat="custody in $data">
 				<td data-title="'Name'"><a href="#/assetoverview/{{custody._id}}">{{custody.name}}</a></td>
+				<td data-title="'Total'">{{custody.total}}</td>
 			</tr>
 		</table>
 		

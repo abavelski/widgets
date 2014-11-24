@@ -1,13 +1,31 @@
 angular.module('widgets.custodies', ['storage'])
 
 .controller('CustodiesCtrl', function($scope, $http, storage, ngTableParams){
-  $scope.custodies = storage.getCustodies();
   $scope.custody = {};
+  $scope.custodies = storage.getCustodies();  
   $scope.tableParams = new ngTableParams({
-    count: $scope.custodies.length 
-    },{
-    counts: [] 
+        page: 1,            
+        count: 5           
+    }, {
+        getData: function($defer, params) {
+          var custodies = storage.getCustodies();  
+          $http.get('/auth/instruments').success(function(instruments) {
+          console.log(instruments);
+          custodies2 = custodies.map(function(custody) {
+                custody.total = 0;
+                for( var i =0; i<custody.holdings.length; i++) {
+                  var instr = instruments[custody.holdings[i].symbol];
+                  custody.total+=(instr.lastTradePrice*custody.holdings[i].amount);
+                }
+                return custody;
+              });
+          console.log(custodies2);
+          $defer.resolve(custodies2);
+          });            
+        }
     });
+
+
   $scope.addCustody = function() {
   	if (!$scope.custody.name) {
   		$scope.error = "Name should not be empty";
