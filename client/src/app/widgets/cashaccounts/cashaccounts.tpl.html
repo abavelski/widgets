@@ -3,9 +3,9 @@
 		<div ng-show="error" class="alert alert-danger" role="alert">{{error}}</div>
 		<table ng-table="tableParams" class="table">
 			<tr ng-repeat="cashAccount in cashAccounts">
-				<td data-title="'Name'"><a href="#/cashaccount/{{cashAccount._id}}/details">{{cashAccount.name}}</a></td>
+				<td data-title="'Name'">{{cashAccount.name}}</td>
 				<td data-title="'Currency'">{{cashAccount.currency}}</td>
-				<td data-title="'Balance'">{{cashAccount.balance}}</td>
+				<td data-title="'Balance'">{{cashAccount.balance | number:2}}</td>
 			</tr>
 		</table>
 		

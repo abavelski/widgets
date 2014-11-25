@@ -5,6 +5,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-recess');
     grunt.loadNpmTasks('grunt-html2js');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', ['build']);
     grunt.registerTask('build', ['clean','html2js','concat','recess:build','copy:assets']);
@@ -92,6 +93,10 @@ module.exports = function (grunt) {
                             compile: true
                         }                
             }
+        },
+        watch: {
+            files: ['src/**/*.js'],
+            tasks: ['build']
         }
     });
 

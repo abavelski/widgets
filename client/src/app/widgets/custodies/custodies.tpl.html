@@ -4,7 +4,11 @@
 		<table ng-table="tableParams" class="table">
 			<tr ng-repeat="custody in $data">
 				<td data-title="'Name'"><a href="#/assetoverview/{{custody._id}}">{{custody.name}}</a></td>
-				<td data-title="'Total'">{{custody.total}}</td>
+				<td data-title="'Total'">{{custody.total | number:2}}</td>
+			</tr>
+			<tr>
+    			<td></td>
+    			<td><b>{{custodiesTotal | number:2}}</b></td>
 			</tr>
 		</table>
 		
