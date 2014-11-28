@@ -384,3 +384,11 @@ transition: all 0.4s ease-in-out;
   padding-right: 0px;
 }
 
+.zero-padding-left {
+  padding-left: 0px;
+}
+
+.zero-padding-right {
+  padding-right: 0px;
+}
+
