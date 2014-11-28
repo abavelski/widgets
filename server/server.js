@@ -18,13 +18,13 @@ app.use(morgan('short'))
   .use(express.static(config.staticFolder))
   .use(bodyParser.json())
   .use(bodyParser.urlencoded())
-  .use('/auth', expressJwt({secret: config.secret}))
+  .use('/auth', expressJwt({secret: config.secret}));
 
 mongoose.connect(config.mongoUrl);
 //mongoose.connect(process.env.OPENSHIFT_MONGODB_DB_URL + process.env.OPENSHIFT_APP_NAME);
 mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
 mongoose.connection.once('open', function() {
-  
+  'use strict';
   var router = express.Router(); 
 
   main(router);

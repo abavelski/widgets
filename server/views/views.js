@@ -32,8 +32,9 @@ module.exports = {
   },
   {
     "path" : "/home",
-    "type" : "zeroSixSix",
+    "type" : "twelveSixSix",
     "widgets" : {
+      "north": ["dashboard"],
       "east" : ["custodies"],
       "west" : ["cashAccounts"]
     }

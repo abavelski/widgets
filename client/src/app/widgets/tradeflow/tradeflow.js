@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
 
 .controller('TradeFlowCtrl', function($scope, WizardHandler, $routeParams, $http, storage, $location){
@@ -25,22 +26,21 @@ angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
 		$scope.total = $scope.order.amount * $scope.instrument.bid + $scope.commission;
 	};
 	var updateTotal = function() {
-		if ($scope.order.orderType=='buy') {
+		if ($scope.order.action==='buy') {
 			updateBuyTotal();
 		} else {
 			updateSellTotal();
 		}
 	};
 	$scope.next = function() {
-		if ($scope.currentStep=='select') {
+		if ($scope.currentStep==='select') {
 			updateTotal();
 			WizardHandler.wizard().next();
 		}
-		if ($scope.currentStep=='confirm') {
+		if ($scope.currentStep==='confirm') {
 			$scope.nextBtn = 'Finish';
 			$http.post('/auth/order', $scope.order)
 			 .success(function(res) {
-                console.log(res);
                 storage.saveUser(res);
                 WizardHandler.wizard().next();
             })
@@ -48,7 +48,7 @@ angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
                     $scope.error = err.error;
             });
 		} 
-		if ($scope.currentStep=='reciept') {
+		if ($scope.currentStep==='reciept') {
 			$location.path('/home');
 		}		
   		
@@ -58,4 +58,4 @@ angular.module('widgets.tradeflow', ['mgo-angular-wizard', 'storage'])
   	$scope.total = 0;
 
   
-})
+});

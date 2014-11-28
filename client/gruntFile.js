@@ -95,7 +95,7 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-            files: ['src/**/*.js'],
+            files: ['src/**/*.js', 'src/**/*.tpl.html', 'src/css/*.css'],
             tasks: ['build']
         }
     });

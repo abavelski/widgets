@@ -1,3 +1,4 @@
+'use strict';
 angular.module('security.service', ['security.login','ui.bootstrap', 'storage'])
 
 .factory('security', function($http, $q, $location, $modal, storage) {
@@ -67,6 +68,7 @@ angular.module('security.service', ['security.login','ui.bootstrap', 'storage'])
     response: function (response) {
       if (response.status === 401) {
         // handle the case where the user is not authenticated
+        console.log('todo');
       }
       return response || $q.when(response);
     }

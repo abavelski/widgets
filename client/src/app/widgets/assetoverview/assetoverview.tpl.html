@@ -3,10 +3,10 @@
 	<table ng-table="tableParams" template-pagination="widgets/assetoverview/pager.tpl.html" class="table">
         <tr ng-repeat="holding in $data">            
             <td data-title="'Name'"><a href="#/instrument/{{holding.symbol}}/details">{{holding.name}}</a></td>
-            <td data-title="'Symbol'">{{holding.symbol}}</td>
-            <td data-title="'Last'">{{holding.last}}</td>
+            <td data-title="'Last'">{{holding.last | number:2}}</td>
             <td data-title="'Amount'">{{holding.amount}}</td>
-            <td data-title="'Avg. purchase price'">{{holding.avgPurchasePrice}}</td>
+            <td data-title="'Total'">{{holding.total | number:2}}</td>
+            <td data-title="'Profit/Loss'">{{holding.pl | number:2}}</td>
         </tr>
         </table>
     </div>

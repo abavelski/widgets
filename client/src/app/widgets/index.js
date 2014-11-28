@@ -8,4 +8,5 @@ angular.module('widgets', [
   'widgets.cashaccounts',
   'widgets.assetoverview',
   'widgets.tradeflow',
-  'widgets.custodyselector']);
+  'widgets.custodyselector',
+  'widgets.dashboard']);

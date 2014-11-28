@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.graph', [])
 
 .directive('graph', function() {
@@ -16,12 +17,12 @@ angular.module('widgets.graph', [])
             });
           });
       }
-    }
+    };
 })
 
 .controller('GraphCtrl', function($scope, $http, $routeParams){
   $scope.getData = function(callback) {
     $http.get('/api/companies/history/'+$routeParams.symbol).success(callback);
-  }
+  };
 
 });

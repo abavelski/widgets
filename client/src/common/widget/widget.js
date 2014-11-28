@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widget', [])
   .directive('widget', function() {
     return {
@@ -21,7 +22,7 @@ angular.module('widget', [])
      link: function(scope, element, attrs) {
       scope.state = "glyphicon-minus";
       scope.toggle = function() {
-      	if (scope.state=='glyphicon-minus') {
+      	if (scope.state==='glyphicon-minus') {
       		element.find('.panel-body').slideUp(function() {});
       		scope.state = 'glyphicon-plus';
       	} else {	
@@ -32,7 +33,7 @@ angular.module('widget', [])
       };
       scope.remove = function() {
       	element.hide();
-      }
+      };
     }
-    }
+    };
   });

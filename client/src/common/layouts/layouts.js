@@ -1,3 +1,4 @@
+'use strict';
 angular.module('layouts', ['ngRoute'])
 
 .factory('WidgetFactory', function() {
@@ -12,8 +13,9 @@ angular.module('layouts', ['ngRoute'])
       cashAccounts : 'widgets/cashaccounts/cashaccounts.tpl.html',
       tradeFlow : 'widgets/tradeflow/tradeflow.tpl.html',
       assetOverview : 'widgets/assetoverview/assetoverview.tpl.html',
-      custodySelector : 'widgets/custodyselector/custodyselector.tpl.html'
-    }
+      custodySelector : 'widgets/custodyselector/custodyselector.tpl.html',
+      dashboard : 'widgets/maindashboard/dashboard.tpl.html'
+    };
 })
 
 .config( function($routeProvider) {
@@ -21,7 +23,7 @@ angular.module('layouts', ['ngRoute'])
     twelveSixSix : 'layouts/twelveSixSix.tpl.html',
     twelveZeroZero : 'layouts/twelveZeroZero.tpl.html',
     zeroSixSix : 'layouts/zeroSixSix.tpl.html'
-  }
+  };
  
     var myConfig = window.myAppConfig;
       for (var i=0; i<myConfig.views.length; i++) {
@@ -34,31 +36,32 @@ angular.module('layouts', ['ngRoute'])
 
 .controller('ViewCtrl', function($scope, WidgetFactory, $location, $route, $window) {
     var setupView = function(widgets) {
+      var i;
       if (widgets.north) {
         $scope.northItems = [];
-        for (var i = 0; i < widgets.north.length; i++) {
+        for (i = 0; i < widgets.north.length; i++) {
           $scope.northItems.push(WidgetFactory[widgets.north[i]]);
-        };
+        }
       }
 
       if (widgets.east) {
         $scope.eastItems=[];
-        for (var i = 0; i < widgets.east.length; i++) {
+        for (i = 0; i < widgets.east.length; i++) {
           $scope.eastItems.push(WidgetFactory[widgets.east[i]]);
-        };
+        }
       }
 
       if (widgets.west) {
         $scope.westItems=[];
-        for (var i = 0; i < widgets.west.length; i++) {
+        for (i = 0; i < widgets.west.length; i++) {
           $scope.westItems.push(WidgetFactory[widgets.west[i]]);
-        };
+        }
       }
     };
     var myViews = $window.myAppConfig.views;
     for (var i=0; i<myViews.length; i++) {
       if (myViews[i].path === $route.current.$$route.originalPath) {
-        setupView(myViews[i].widgets)
+        setupView(myViews[i].widgets);
       }
     }
   });

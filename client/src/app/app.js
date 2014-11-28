@@ -1,3 +1,4 @@
+'use strict';
 angular.module('app', [ 'templates.app', 'templates.common', 'security','layouts', 'widget', 'widgets'])
 
 .controller('AppCtrl', ['$scope', function($scope) {}])
@@ -10,4 +11,4 @@ angular.module('app', [ 'templates.app', 'templates.common', 'security','layouts
 .run(function(security, $window){
 	$window.addToHomescreen();
 	security.updateCurrentUser();
-})
+});

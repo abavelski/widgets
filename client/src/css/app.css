@@ -373,3 +373,14 @@ transition: all 0.4s ease-in-out;
   }
 }
 
+.hero-widget { text-align: center; padding-top: 10px; padding-bottom: 10px; }
+.hero-widget var { display: block; height: 32px; font-size: 32px; line-height: 32px; font-style: normal; }
+.hero-widget label { font-size: 17px; }
+.hero-widget .options { margin-top: 10px; }
+
+
+.zero-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+

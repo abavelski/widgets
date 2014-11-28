@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.assetoverview', [])
 
 .controller('AssetOverviewCtrl', function($scope, $http, $routeParams, ngTableParams){

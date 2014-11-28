@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.custodyselector', ['storage'])
 
 .controller('CustodySelectorCtrl', function($scope, storage, $routeParams){
@@ -7,7 +8,7 @@ angular.module('widgets.custodyselector', ['storage'])
   $scope.custody = $scope.custodies[0];
     
   $scope.custodies.forEach(function(custody){
-    if (custody._id==$routeParams.id) {
+    if (custody._id===$routeParams.id) {
       $scope.custody = custody;
     }
   });

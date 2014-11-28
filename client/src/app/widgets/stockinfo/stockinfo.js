@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.stockinfo', ['ngTable'])
 
 .factory('StockInfoLabels', function() {
