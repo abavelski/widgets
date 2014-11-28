@@ -67,8 +67,7 @@ angular.module('security.service', ['security.login','ui.bootstrap', 'storage'])
     },
     response: function (response) {
       if (response.status === 401) {
-        // handle the case where the user is not authenticated
-        console.log('todo');
+        // TODO: handle the case where the user is not authenticated
       }
       return response || $q.when(response);
     }

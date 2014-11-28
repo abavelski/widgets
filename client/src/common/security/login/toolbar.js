@@ -1,3 +1,4 @@
+'use strict';
 angular.module('security.login.toolbar', [])
 
 .directive('loginToolbar', function(security) {

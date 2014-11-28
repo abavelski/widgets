@@ -9,4 +9,5 @@ angular.module('widgets', [
   'widgets.assetoverview',
   'widgets.tradeflow',
   'widgets.custodyselector',
-  'widgets.dashboard']);
+  'widgets.dashboard',
+  'widgets.tradebuttons']);

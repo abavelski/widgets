@@ -1,3 +1,4 @@
+'use strict';
 angular.module('security.login.form', [])
 
 .controller('LoginFormController', function($scope, $modalInstance, security) {

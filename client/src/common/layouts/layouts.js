@@ -14,7 +14,8 @@ angular.module('layouts', ['ngRoute'])
       tradeFlow : 'widgets/tradeflow/tradeflow.tpl.html',
       assetOverview : 'widgets/assetoverview/assetoverview.tpl.html',
       custodySelector : 'widgets/custodyselector/custodyselector.tpl.html',
-      dashboard : 'widgets/maindashboard/dashboard.tpl.html'
+      dashboard : 'widgets/maindashboard/dashboard.tpl.html',
+      tradeButtons : 'widgets/tradebuttons/tradebuttons.tpl.html'
     };
 })
 

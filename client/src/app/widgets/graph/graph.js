@@ -7,6 +7,9 @@ angular.module('widgets.graph', [])
       link: function(scope, element, attrs) {
           scope.getData(function(data){
             element.highcharts('StockChart', {
+              rangeSelector : {
+                  inputEnabled: false
+              },
               credits: {
                 enabled: false
               },
