@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.cashaccounts', ['storage'])
 
 .controller('CashAccountsCtrl', function($scope, $http, storage, ngTableParams){
@@ -25,9 +26,9 @@ angular.module('widgets.cashaccounts', ['storage'])
             .error(function(err) {
                     $scope.error = err.error;
             });
-  }
+  };
 
   $scope.isAddCashAccountAllowed = function() {
   	return $scope.cashAccounts.length<5;
-  }
+  };
 });

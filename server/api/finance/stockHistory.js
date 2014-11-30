@@ -2,48 +2,49 @@ var http = require('http');
 var csv = require('csv');
 
 var StockHistory = function() {
+    'use strict';
     var self = this;
     var period = "d";
     var symbol = "YHOO";
     var from, to;
     var myCallback = function(data) {
         console.log(data);
-    }
+    };
 
     self.daily = function() {
         period = "d";
         return self;
-    }
+    };
 
     self.weekly = function() {
         period = "w";
         return self;
-    }
+    };
 
     self.monthly = function() {
         period = "m";
         return self;
-    }
+    };
 
     self.dividendsOnly = function() {
         period = "v";
         return self;
-    }
+    };
 
     self.forSymbol = function(mySymbol) {
         symbol = mySymbol;
         return self;
-    }
+    };
 
 
     self.from = function(fromDate) {
-        if (typeof fromDate == 'string') {
+        if (typeof fromDate === 'string') {
             from = new Date(fromDate);
         } else {
             from = fromDate;
         }
         return self;
-    }
+    };
 
     self.to = function(toDate) {
         if (typeof toDate == 'string') {
@@ -52,7 +53,7 @@ var StockHistory = function() {
             to = toDate;
         }
         return self;
-    }
+    };
 
     var compare = function(a,b) {
         if (a[0] < b[0])
@@ -60,7 +61,7 @@ var StockHistory = function() {
                     if (a[0] > b[0])
                 return 1;
                 return 0;
-            }
+            };
 
     var transformData = function(data) {
         if (period==='v') {
@@ -88,16 +89,16 @@ var StockHistory = function() {
 
         resp.sort(compare);
         myCallback(resp);
-    }
+    };
 
     self.getHistory = function(callback) {
         console.log('getHistory');
         var url = "http://ichart.yahoo.com/table.csv?s="+symbol+"&g="+period;
         if (from) {
-            url+='&a='+from.getMonth()+'&b='+from.getUTCDate()+'&c='+from.getUTCFullYear()
+            url+='&a='+from.getMonth()+'&b='+from.getUTCDate()+'&c='+from.getUTCFullYear();
         }
         if (to) {
-            url+='&d='+to.getMonth()+'&e='+to.getUTCDate()+'&f='+to.getUTCFullYear()
+            url+='&d='+to.getMonth()+'&e='+to.getUTCDate()+'&f='+to.getUTCFullYear();
         }
         url+='&ignore=.csv';
         console.log('URL:'+url);
@@ -106,12 +107,14 @@ var StockHistory = function() {
         }
         http.get(url, function(res) {
             console.log('response received');
-            if ( res.statusCode!=200) throw new Error("Error: "+res.statusCode);
+            if ( res.statusCode!==200) {
+                throw new Error("Error: "+res.statusCode);
+            }
             csv().from.stream(res).to.array(transformData);
         }).on('error', function(e) {
                 throw e;
             });
-    }
+    };
 
 };
 

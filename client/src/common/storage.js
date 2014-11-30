@@ -1,3 +1,4 @@
+'use strict';
 angular.module('storage', [])
 
 .factory('storage', function($window) {
@@ -58,6 +59,6 @@ angular.module('storage', [])
          		return null;
          	}
          }
-    }
+    };
     return storage;
 })

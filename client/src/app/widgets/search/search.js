@@ -1,3 +1,4 @@
+'use strict';
 angular.module('widgets.search', ['ui.bootstrap.typeahead', 'ui.bootstrap.tpls'])
 
 .controller('SearchCtrl', function ($scope, $http, $location) {
